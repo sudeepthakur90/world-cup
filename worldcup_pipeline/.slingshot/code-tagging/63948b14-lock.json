@@ -1,0 +1,1225 @@
+{
+  "src\\config\\config.py": {
+    "filename": "config.py",
+    "path": "src\\config\\config.py",
+    "version": "1.2",
+    "contextFile": "63948b14-context.json",
+    "chunks": {
+      "64da8b": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788344929,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1f01294a"
+        },
+        "hash": "7149d71a",
+        "messageId": "system_4a5b5990-a6b8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 3:58:49 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "044d54": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788344929,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1f01294a"
+        },
+        "hash": "578f2c1f",
+        "messageId": "system_4a5b5990-a6b8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 3:58:49 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "efd3b7": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788344929,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1f01294a"
+        },
+        "hash": "eae280dd",
+        "messageId": "system_4a5b5990-a6b8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 3:58:49 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "4e9b84": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788344929,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1f01294a"
+        },
+        "hash": "0f9e9345",
+        "messageId": "system_4a5b5990-a6b8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 3:58:49 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "d45070": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788348918,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "7de048cd"
+        },
+        "hash": "7b69af7c",
+        "messageId": "system_e2f98ba0-a6c1-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 5:05:18 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "a8234d": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788348918,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "7de048cd"
+        },
+        "hash": "266955dc",
+        "messageId": "system_e2f98ba0-a6c1-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 5:05:18 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "8977a8": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "0b90fdd2",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "5e55ed": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "a18f4dc8",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "aa7a41": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "8af55621",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "09af31": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "a44b3d25",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "c2756d": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "d3ea9a6d",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "df9eec": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "a8d95ecd",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "8d055a": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "66e10762",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "b475f9": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "6e58bcb9",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "54beb1": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "d4923ffe",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "30e7c1": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "ce366086",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "5ed0da": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "0589c052",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "19": {
+        "chunkId": "4e9b84",
+        "hash": "1dff6ba0",
+        "encoded": "#%20Data%20Sources",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "4e9b84",
+        "hash": "4f6a70b0",
+        "encoded": "#%20World%20Cup%20Matches%20dataset%20(1930-2014)%20from%20Kaggle",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "4e9b84",
+        "hash": "60568ee2",
+        "encoded": "WORLDCUP_DATA_URL%20=%20os.getenv(",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "4e9b84",
+        "hash": "bf27182e",
+        "encoded": "%22WORLDCUP_DATA_URL%22,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "4e9b84",
+        "hash": "aa8eaed0",
+        "encoded": "%22https://raw.githubusercontent.com/openfootball/world-cup/master/2014--brazil/WorldCupMatches.csv%22",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "4e9b84",
+        "hash": "e30ea252",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "4e9b84",
+        "hash": "0fd69103",
+        "encoded": "#%20Alternative:%20Direct%20download%20from%20reliable%20source",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "4e9b84",
+        "hash": "0df1d5f4",
+        "encoded": "#%20If%20the%20above%20fails,%20fallback%20URLs%20are%20available%20in%20download_data.py",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "4e9b84",
+        "hash": "46c039f6",
+        "encoded": "WORLDCUP_BACKUP_URL%20=%20%22https://query.data.world/s/uY8FuXXtP4T8W3K1Hy8dQKJELVcBMl%22",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "4e9b84",
+        "hash": "fc32c2cd",
+        "encoded": "#%20Temperature%20dataset%20from%20Berkeley%20Earth%20/%20NOAA",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "4e9b84",
+        "hash": "aff03049",
+        "encoded": "TEMPERATURE_DATA_URL%20=%20os.getenv(",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "4e9b84",
+        "hash": "7aeb27df",
+        "encoded": "%22TEMPERATURE_DATA_URL%22,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "4e9b84",
+        "hash": "bc9f8736",
+        "encoded": "%22https://raw.githubusercontent.com/datasets/global-temp/master/data/monthly.csv%22",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "4e9b84",
+        "hash": "c188dda7",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "4e9b84",
+        "hash": "cab27dce",
+        "encoded": "#%20Alternative%20temperature%20source",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "4e9b84",
+        "hash": "e86d2a86",
+        "encoded": "TEMPERATURE_BACKUP_URL%20=%20%22https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv%22",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "044d54",
+        "hash": "da4ac0ff",
+        "encoded": "#%20World%20Cup%20Matches%20dataset%20(1930-2014)%20from%20Tableau%20Public%20(Excel%20format)",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "044d54",
+        "hash": "a9d8519c",
+        "encoded": "WORLDCUP_DATA_URL%20=%20os.getenv(",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "044d54",
+        "hash": "b21ae647",
+        "encoded": "%22WORLDCUP_DATA_URL%22,",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "044d54",
+        "hash": "ee4da20b",
+        "encoded": "%22https://public.tableau.com/app/sample-data/world_cup_results.xlsx%22",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "044d54",
+        "hash": "a1df8512",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "044d54",
+        "hash": "1fd4e62c",
+        "encoded": "#%20Temperature%20dataset%20from%20Our%20World%20in%20Data%20(ZIP%20with%20CSV%20inside)",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "5ed0da",
+        "hash": "a00b001b",
+        "encoded": "#%20Logging",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "5ed0da",
+        "hash": "150beee8",
+        "encoded": "log_level%20=%20os.getenv(%22LOG_LEVEL%22,%20%22INFO%22)",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "5ed0da",
+        "hash": "a3f4484f",
+        "encoded": "log_file%20=%20log_path%20/%20os.getenv(%22LOG_FILE%22,%20%22pipeline.log%22)",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "5ed0da",
+        "hash": "1984354a",
+        "encoded": "LOG_LEVEL%20=%20log_level",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "5ed0da",
+        "hash": "938e2b62",
+        "encoded": "LOG_FILE%20=%20log_file",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "044d54",
+        "hash": "76517c7a",
+        "encoded": "%22TEMPERATURE_DATA_URL%22,",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "044d54",
+        "hash": "f24483e2",
+        "encoded": "%22https://ourworldindata.org/grapher/average-monthly-surface-temperature.zip?v=1&csvType=full&useColumnShortNames=false%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "044d54",
+        "hash": "fb14fcc6",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "044d54",
+        "hash": "b51a2a1e",
+        "encoded": "#%20Note:%20Fallback%20URLs%20are%20configured%20in%20src/ingestion/download_data.py",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "a8234d",
+        "hash": "b5962807",
+        "encoded": "#%20File%20Names",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "a8234d",
+        "hash": "2ce31eef",
+        "encoded": "WORLDCUP_RAW_FILE%20=%20%22WorldCupMatches.xlsx%22%20%20%20%20%20%20#%20Excel%20format%20from%20Tableau%20(for%20Pandas)",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "a8234d",
+        "hash": "e792ff14",
+        "encoded": "WORLDCUP_RAW_CSV%20=%20%22WorldCupMatches.csv%22%20%20%20%20%20%20%20%20#%20CSV%20format%20(for%20Spark)",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "a8234d",
+        "hash": "0fd6bdbf",
+        "encoded": "TEMPERATURE_RAW_FILE%20=%20%22temperature.csv%22%20%20%20%20%20%20%20%20#%20CSV%20extracted%20from%20ZIP",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "09af31",
+        "hash": "3e8ed5c7",
+        "encoded": "#%20File%20Names",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "09af31",
+        "hash": "b4ec9e22",
+        "encoded": "WORLDCUP_RAW_FILE%20=%20%22WorldCupMatches.xlsx%22",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "09af31",
+        "hash": "e86705fa",
+        "encoded": "WORLDCUP_RAW_CSV%20=%20%22WorldCupMatches.csv%22",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "09af31",
+        "hash": "df8f0a5d",
+        "encoded": "TEMPERATURE_RAW_FILE%20=%20%22temperature.csv%22",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "09af31",
+        "hash": "c8bb3a31",
+        "encoded": "WORLDCUP_CLEANED_FILE%20=%20%22worldcup_cleaned.parquet%22",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "09af31",
+        "hash": "bb7f9ff2",
+        "encoded": "TEMPERATURE_CLEANED_FILE%20=%20%22temperature_cleaned.parquet%22",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "09af31",
+        "hash": "30e4529b",
+        "encoded": "WORLDCUP_ENRICHED_FILE%20=%20%22worldcup_enriched.parquet%22",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "09af31",
+        "hash": "692e9645",
+        "encoded": "GOLD_ENRICHED_FILE%20=%20%22worldcup_enriched.parquet%22%20%20#%20Alias",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "a8234d",
+        "hash": "3b23215d",
+        "encoded": "TEMPERATURE_CLEANED_FILE%20=%20%22temperature_cleaned.parquet%22",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "b475f9",
+        "hash": "ea7b6fc5",
+        "encoded": "class%20Config:",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "b475f9",
+        "hash": "49143ebd",
+        "encoded": "%22%22%22Configuration%20class.%22%22%22",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "b475f9",
+        "hash": "6bccecb9",
+        "encoded": "project_root%20=%20PROJECT_ROOT",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "b475f9",
+        "hash": "25721277",
+        "encoded": "raw_path%20=%20raw_path",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "b475f9",
+        "hash": "d9ab1941",
+        "encoded": "processed_path%20=%20processed_path",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "b475f9",
+        "hash": "fed1ce48",
+        "encoded": "output_path%20=%20output_path",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "b475f9",
+        "hash": "d6946a13",
+        "encoded": "log_path%20=%20log_path",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "b475f9",
+        "hash": "1d5f539d",
+        "encoded": "#%20Uppercase%20aliases%20for%20compatibility",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "b475f9",
+        "hash": "1a84af39",
+        "encoded": "RAW_DATA_PATH%20=%20raw_path",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "b475f9",
+        "hash": "730604a8",
+        "encoded": "PROCESSED_DATA_PATH%20=%20processed_path",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "54beb1",
+        "hash": "9946508f",
+        "encoded": "log_level%20=%20log_level",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "54beb1",
+        "hash": "96141602",
+        "encoded": "log_file%20=%20log_file",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "54beb1",
+        "hash": "cbaa2fc0",
+        "encoded": "max_retries%20=%20MAX_RETRIES",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "54beb1",
+        "hash": "61ef1cb3",
+        "encoded": "timeout_seconds%20=%20TIMEOUT_SECONDS",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "54beb1",
+        "hash": "36f8d50c",
+        "encoded": "timeout%20=%20TIMEOUT_SECONDS%20%20#%20Alias%20for%20compatibility",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "54beb1",
+        "hash": "55402ef8",
+        "encoded": "chunk_size%20=%20CHUNK_SIZE",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "b475f9",
+        "hash": "a5914341",
+        "encoded": "LOG_PATH%20=%20log_path",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "b475f9",
+        "hash": "65f73880",
+        "encoded": "PROJECT_ROOT%20=%20PROJECT_ROOT",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "8d055a",
+        "hash": "609b5be9",
+        "encoded": "#%20Data%20paths%20(lowercase)",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "8d055a",
+        "hash": "80b5b096",
+        "encoded": "raw_path%20=%20raw_path",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "8d055a",
+        "hash": "781aeeaf",
+        "encoded": "processed_path%20=%20processed_path",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "8d055a",
+        "hash": "e8dbac0d",
+        "encoded": "output_path%20=%20output_path",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "8d055a",
+        "hash": "26e74567",
+        "encoded": "log_path%20=%20log_path",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "8d055a",
+        "hash": "0d9ed8cc",
+        "encoded": "#%20Data%20paths%20(lowercase%20with%20underscore%20-%20for%20compatibility)",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "8d055a",
+        "hash": "94e329dd",
+        "encoded": "raw_data_path%20=%20raw_path",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "8d055a",
+        "hash": "5875bdde",
+        "encoded": "processed_data_path%20=%20processed_path",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "8d055a",
+        "hash": "5b61c276",
+        "encoded": "output_data_path%20=%20output_path",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "8d055a",
+        "hash": "546dc659",
+        "encoded": "log_data_path%20=%20log_path",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "8d055a",
+        "hash": "50cadb90",
+        "encoded": "#%20Data%20paths%20(uppercase)",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "8d055a",
+        "hash": "ca3d1037",
+        "encoded": "RAW_DATA_PATH%20=%20raw_path",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "8d055a",
+        "hash": "9843fd6e",
+        "encoded": "PROCESSED_DATA_PATH%20=%20processed_path",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "8d055a",
+        "hash": "95e2981e",
+        "encoded": "OUTPUT_PATH%20=%20output_path",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "8d055a",
+        "hash": "a1259e57",
+        "encoded": "LOG_PATH%20=%20log_path",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "efd3b7",
+        "hash": "b42cd8f6",
+        "encoded": "WORLDCUP_RAW_FILE%20=%20%22WorldCupMatches.csv%22",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "efd3b7",
+        "hash": "1e40ca8f",
+        "encoded": "TEMPERATURE_RAW_FILE%20=%20%22temperature.csv%22",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "64da8b",
+        "hash": "6aeb1ed9",
+        "encoded": "#%20File%20Names",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "64da8b",
+        "hash": "e772001c",
+        "encoded": "WORLDCUP_RAW_FILE%20=%20%22WorldCupMatches.xlsx%22%20%20#%20Excel%20format%20from%20Tableau",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "64da8b",
+        "hash": "47185fbb",
+        "encoded": "TEMPERATURE_RAW_FILE%20=%20%22temperature.csv%22%20%20%20%20#%20CSV%20extracted%20from%20ZIP",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "5e55ed",
+        "hash": "8b83c8dd",
+        "encoded": "#%20Data%20paths%20(uppercase)",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "5e55ed",
+        "hash": "0cb51010",
+        "encoded": "RAW_DATA_PATH%20=%20raw_path",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "5e55ed",
+        "hash": "9a84e99d",
+        "encoded": "PROCESSED_DATA_PATH%20=%20processed_path",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "5e55ed",
+        "hash": "b0c6a453",
+        "encoded": "OUTPUT_PATH%20=%20output_path",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "5e55ed",
+        "hash": "34a82105",
+        "encoded": "LOG_PATH%20=%20log_path",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "5e55ed",
+        "hash": "9b32792b",
+        "encoded": "GOLD_PATH%20=%20output_path%20%20#%20Alias%20for%20output%20path%20(gold%20layer)",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "30e7c1",
+        "hash": "d49e9b63",
+        "encoded": "#%20Logging",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "30e7c1",
+        "hash": "3ed59bcd",
+        "encoded": "log_level%20=%20log_level",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "30e7c1",
+        "hash": "e25b71f3",
+        "encoded": "log_file%20=%20log_file",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "30e7c1",
+        "hash": "70925bcb",
+        "encoded": "#%20Processing",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "30e7c1",
+        "hash": "fc6f2d77",
+        "encoded": "max_retries%20=%20MAX_RETRIES",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "30e7c1",
+        "hash": "48b2f843",
+        "encoded": "timeout_seconds%20=%20TIMEOUT_SECONDS",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "30e7c1",
+        "hash": "2c581b3c",
+        "encoded": "chunk_size%20=%20CHUNK_SIZE",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "30e7c1",
+        "hash": "33b7d51d",
+        "encoded": "#%20File%20names",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "30e7c1",
+        "hash": "9f9a96a6",
+        "encoded": "worldcup_raw_file%20=%20WORLDCUP_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "30e7c1",
+        "hash": "b6c1e03c",
+        "encoded": "worldcup_raw_csv%20=%20WORLDCUP_RAW_CSV",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "30e7c1",
+        "hash": "d28888f6",
+        "encoded": "temperature_raw_file%20=%20TEMPERATURE_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "30e7c1",
+        "hash": "4e3ca13f",
+        "encoded": "worldcup_cleaned_file%20=%20WORLDCUP_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "30e7c1",
+        "hash": "cf7a1344",
+        "encoded": "temperature_cleaned_file%20=%20TEMPERATURE_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "30e7c1",
+        "hash": "fbf83544",
+        "encoded": "#%20Data%20sources",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "30e7c1",
+        "hash": "af2f46e6",
+        "encoded": "worldcup_data_url%20=%20WORLDCUP_DATA_URL",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "30e7c1",
+        "hash": "837a47ae",
+        "encoded": "temperature_data_url%20=%20TEMPERATURE_DATA_URL",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "30e7c1",
+        "hash": "3af26017",
+        "encoded": "#%20Quality%20thresholds",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "30e7c1",
+        "hash": "daa7b205",
+        "encoded": "min_temperature%20=%20MIN_TEMPERATURE",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "30e7c1",
+        "hash": "46b2341a",
+        "encoded": "max_temperature%20=%20MAX_TEMPERATURE",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "30e7c1",
+        "hash": "bac9dadf",
+        "encoded": "min_year%20=%20MIN_YEAR",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "30e7c1",
+        "hash": "2ee23ad0",
+        "encoded": "max_year%20=%20MAX_YEAR",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "d45070",
+        "hash": "4b7b0901",
+        "encoded": "#%20File%20names",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "d45070",
+        "hash": "72c631db",
+        "encoded": "worldcup_raw:%20str%20=%20WORLDCUP_RAW_FILE%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Excel%20for%20Pandas",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "d45070",
+        "hash": "fce82ab5",
+        "encoded": "worldcup_raw_csv:%20str%20=%20WORLDCUP_RAW_CSV%20%20%20%20%20%20%20%20%20%20#%20CSV%20for%20Spark",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "d45070",
+        "hash": "0d0b7dce",
+        "encoded": "temperature_raw:%20str%20=%20TEMPERATURE_RAW_FILE%20%20%20%20%20%20%20%20#%20CSV%20for%20both",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "d45070",
+        "hash": "308db403",
+        "encoded": "worldcup_cleaned:%20str%20=%20WORLDCUP_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "d45070",
+        "hash": "791fea2d",
+        "encoded": "temperature_cleaned:%20str%20=%20TEMPERATURE_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "df9eec",
+        "hash": "93dc1f68",
+        "encoded": "#%20File%20names%20(lowercase)",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "df9eec",
+        "hash": "fb722c76",
+        "encoded": "worldcup_raw_file%20=%20WORLDCUP_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "df9eec",
+        "hash": "4c2a8dbe",
+        "encoded": "worldcup_raw_csv%20=%20WORLDCUP_RAW_CSV",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "df9eec",
+        "hash": "cd8e9b84",
+        "encoded": "temperature_raw_file%20=%20TEMPERATURE_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "df9eec",
+        "hash": "f72760c3",
+        "encoded": "worldcup_cleaned_file%20=%20WORLDCUP_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "df9eec",
+        "hash": "d415ce5c",
+        "encoded": "temperature_cleaned_file%20=%20TEMPERATURE_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "df9eec",
+        "hash": "8d536ec2",
+        "encoded": "#%20File%20names%20(short%20versions%20-%20for%20compatibility)",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "df9eec",
+        "hash": "e51b3a26",
+        "encoded": "worldcup_raw%20=%20WORLDCUP_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "df9eec",
+        "hash": "7d84b789",
+        "encoded": "temperature_raw%20=%20TEMPERATURE_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "df9eec",
+        "hash": "1969061d",
+        "encoded": "#%20File%20names%20(uppercase)",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "df9eec",
+        "hash": "e8cc1227",
+        "encoded": "WORLDCUP_RAW_FILE%20=%20WORLDCUP_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "df9eec",
+        "hash": "5e5b2665",
+        "encoded": "WORLDCUP_RAW_CSV%20=%20WORLDCUP_RAW_CSV",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "df9eec",
+        "hash": "970d4ee1",
+        "encoded": "TEMPERATURE_RAW_FILE%20=%20TEMPERATURE_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "df9eec",
+        "hash": "02e6e4b3",
+        "encoded": "WORLDCUP_CLEANED_FILE%20=%20WORLDCUP_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "df9eec",
+        "hash": "7f397f08",
+        "encoded": "TEMPERATURE_CLEANED_FILE%20=%20TEMPERATURE_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "c2756d",
+        "hash": "432aa2ed",
+        "encoded": "#%20File%20names%20(short%20versions%20-%20for%20compatibility)",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "c2756d",
+        "hash": "7198ad60",
+        "encoded": "worldcup_raw%20=%20WORLDCUP_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "c2756d",
+        "hash": "57f2b8e8",
+        "encoded": "temperature_raw%20=%20TEMPERATURE_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "c2756d",
+        "hash": "e8edcc19",
+        "encoded": "worldcup_cleaned%20=%20WORLDCUP_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "c2756d",
+        "hash": "43192223",
+        "encoded": "temperature_cleaned%20=%20TEMPERATURE_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "246": {
+        "chunkId": "aa7a41",
+        "hash": "40b13cdb",
+        "encoded": "#%20File%20names%20(short%20versions%20-%20for%20compatibility)",
+        "prevChunkIds": []
+      },
+      "247": {
+        "chunkId": "aa7a41",
+        "hash": "de1e17ca",
+        "encoded": "worldcup_raw%20=%20WORLDCUP_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "248": {
+        "chunkId": "aa7a41",
+        "hash": "ba5d7ad1",
+        "encoded": "temperature_raw%20=%20TEMPERATURE_RAW_FILE",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "aa7a41",
+        "hash": "8514ae93",
+        "encoded": "worldcup_cleaned%20=%20WORLDCUP_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "aa7a41",
+        "hash": "08c37b41",
+        "encoded": "temperature_cleaned%20=%20TEMPERATURE_CLEANED_FILE",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "aa7a41",
+        "hash": "6a576754",
+        "encoded": "worldcup_enriched%20=%20WORLDCUP_ENRICHED_FILE",
+        "prevChunkIds": []
+      },
+      "252": {
+        "chunkId": "aa7a41",
+        "hash": "dcc7c8d4",
+        "encoded": "GOLD_ENRICHED_FILE%20=%20GOLD_ENRICHED_FILE",
+        "prevChunkIds": []
+      },
+      "293": {
+        "chunkId": "8977a8",
+        "hash": "f07b8878",
+        "encoded": "@staticmethod",
+        "prevChunkIds": []
+      },
+      "294": {
+        "chunkId": "8977a8",
+        "hash": "650a7f9c",
+        "encoded": "def%20get_database_url()%20-%3E%20str:",
+        "prevChunkIds": []
+      },
+      "295": {
+        "chunkId": "8977a8",
+        "hash": "8e56a5ca",
+        "encoded": "%22%22%22Get%20database%20URL.%22%22%22",
+        "prevChunkIds": []
+      },
+      "296": {
+        "chunkId": "8977a8",
+        "hash": "4854a0ed",
+        "encoded": "return%20get_database_url()",
+        "prevChunkIds": []
+      },
+      "298": {
+        "chunkId": "8977a8",
+        "hash": "9897650f",
+        "encoded": "#%20Database%20URL%20as%20property",
+        "prevChunkIds": []
+      },
+      "299": {
+        "chunkId": "8977a8",
+        "hash": "3c7efd2a",
+        "encoded": "@property",
+        "prevChunkIds": []
+      },
+      "300": {
+        "chunkId": "8977a8",
+        "hash": "d74f89eb",
+        "encoded": "def%20db_url(self)%20-%3E%20str:",
+        "prevChunkIds": []
+      },
+      "301": {
+        "chunkId": "8977a8",
+        "hash": "e10b5f8b",
+        "encoded": "%22%22%22Get%20database%20URL.%22%22%22",
+        "prevChunkIds": []
+      },
+      "302": {
+        "chunkId": "8977a8",
+        "hash": "24729b6a",
+        "encoded": "return%20get_database_url()",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 134
+  }
+}

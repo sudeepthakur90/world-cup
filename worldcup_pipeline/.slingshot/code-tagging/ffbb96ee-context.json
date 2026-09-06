@@ -1,0 +1,15 @@
+{
+  "filename": "setup_spark_windows.py",
+  "path": "setup_spark_windows.py",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "8c372ac3": {
+      "value": "as we are running in windows probabaly we need to setup hadoop and winutils ?"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

@@ -1,0 +1,21 @@
+{
+  "filename": "run_queries.py",
+  "path": "src\\analytics\\run_queries.py",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "5be1f4cc": {
+      "value": "prepare runner for analytics"
+    },
+    "5c8bd028": {
+      "value": "still similar issue \nExecuting: temperature_impact_on_goals\n2026-09-03 21:23:08 - INFO - ----------------------------------------------------------------------\n2026-09-03 21:23:08 - INFO - Executing query: temperature_impact_on_goals\n2026-09-03 21:23:08 - ERROR - Error executing query 'temperature_impact_on_goals': Execution failed on sql '\n        -- Temperature Impact on Goals Scored\n        SELECT\n            dt.temperature_category,\n            dt.avg_temperature_celsius,\n            COUNT(f"
+    },
+    "7d505040": {
+      "value": "folder structure for output can we update based on medelian architecture ?"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

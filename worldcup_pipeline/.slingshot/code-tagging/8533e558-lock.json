@@ -1,0 +1,1105 @@
+{
+  "run_enrichment.py": {
+    "filename": "run_enrichment.py",
+    "path": "run_enrichment.py",
+    "version": "1.2",
+    "contextFile": "8533e558-context.json",
+    "chunks": {
+      "663154": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459975,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "32cc266d"
+        },
+        "hash": "ca3895d6",
+        "messageId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:56:15 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "eeef21": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788373539,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "30f4aa41"
+        },
+        "hash": "0f588c88",
+        "messageId": "system_1d3794e0-a6fb-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_1d3794e0-a6fb-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/2/2026, 11:55:39 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "aa6972": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788374679,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "8d9bb037"
+        },
+        "hash": "07904be0",
+        "messageId": "system_e3768c90-a6fd-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 12:14:39 AM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "bf0fbc": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788427148,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "fe0e5583"
+        },
+        "hash": "7dac6413",
+        "messageId": "system_815ecca0-a772-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 2:49:08 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "0ba3d7": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788427148,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "fe0e5583"
+        },
+        "hash": "3108f958",
+        "messageId": "system_815ecca0-a772-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 2:49:08 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "c21f25": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788458365,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "7d505040"
+        },
+        "hash": "04d316f6",
+        "messageId": "system_fd640a20-a7bf-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_fd640a20-a7bf-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:29:25 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "356bcd": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788458410,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "7d505040"
+        },
+        "hash": "84f7cd6f",
+        "messageId": "system_fd640a20-a7bf-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_fd640a20-a7bf-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:30:10 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "47e41d": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788458434,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "7d505040"
+        },
+        "hash": "702be0f4",
+        "messageId": "system_fd640a20-a7bf-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_fd640a20-a7bf-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:30:34 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "409ee8": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788458992,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "b5da5f4b"
+        },
+        "hash": "6fe3d78e",
+        "messageId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:39:52 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "d899ac": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459010,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "b5da5f4b"
+        },
+        "hash": "6aca0a5e",
+        "messageId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:40:10 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "1ac886": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459023,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "b5da5f4b"
+        },
+        "hash": "04d316f6",
+        "messageId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:40:23 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "4449e6": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459048,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "b5da5f4b"
+        },
+        "hash": "ca3895d6",
+        "messageId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_1fccde50-a7c2-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:40:48 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "902de5": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459198,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "6110d784"
+        },
+        "hash": "2201e3ad",
+        "messageId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:43:18 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "bb9d49": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459219,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "6110d784"
+        },
+        "hash": "233e8428",
+        "messageId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:43:39 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "01651e": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459230,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "6110d784"
+        },
+        "hash": "88dd1d82",
+        "messageId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:43:50 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "20838d": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459241,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "6110d784"
+        },
+        "hash": "46edd8a7",
+        "messageId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_ee8abdc0-a7c2-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:44:01 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "ab511b": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459367,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "9bd97b79"
+        },
+        "hash": "2201e3ad",
+        "messageId": "system_4fe0cd30-a7c3-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_4fe0cd30-a7c3-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:46:07 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "3255c2": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459376,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "9bd97b79"
+        },
+        "hash": "46edd8a7",
+        "messageId": "system_4fe0cd30-a7c3-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_4fe0cd30-a7c3-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:46:16 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "2047b4": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459490,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "17f6bc08"
+        },
+        "hash": "cf81eabd",
+        "messageId": "system_bc30eba0-a7c3-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_bc30eba0-a7c3-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:48:10 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "210d2d": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459502,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "17f6bc08"
+        },
+        "hash": "702be0f4",
+        "messageId": "system_bc30eba0-a7c3-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_bc30eba0-a7c3-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:48:22 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "92372b": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459716,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "df69f353"
+        },
+        "hash": "2e5b7a82",
+        "messageId": "system_e7ef7f90-a7c3-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_e7ef7f90-a7c3-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:51:56 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "84fbf0": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459803,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "2ca0a9b4"
+        },
+        "hash": "702be0f4",
+        "messageId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:53:23 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "d8265a": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459828,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "2ca0a9b4"
+        },
+        "hash": "5d4a7d04",
+        "messageId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:53:48 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "bcc77a": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459843,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "2ca0a9b4"
+        },
+        "hash": "702be0f4",
+        "messageId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:54:03 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "540efc": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459870,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "2ca0a9b4"
+        },
+        "hash": "ca3895d6",
+        "messageId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:54:30 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "fab4ec": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459901,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "2ca0a9b4"
+        },
+        "hash": "5d4a7d04",
+        "messageId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_7a6ba6a0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:55:01 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "4b8af2": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459962,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "32cc266d"
+        },
+        "hash": "59d3738f",
+        "messageId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:56:02 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "ded075": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788459993,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "32cc266d"
+        },
+        "hash": "5d4a7d04",
+        "messageId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:56:33 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "a6ff03": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788460002,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "32cc266d"
+        },
+        "hash": "59d3738f",
+        "messageId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:56:42 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "9b0868": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788460008,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "32cc266d"
+        },
+        "hash": "7cbf2ece",
+        "messageId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_d36fbca0-a7c4-11f1-8dda-ff0782ab4765-Codeblock-3",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:56:48 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "b1ff7a": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788460056,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "f579de70"
+        },
+        "hash": "5d4a7d04",
+        "messageId": "system_0db5a500-a7c5-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_0db5a500-a7c5-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:57:36 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "3749bb": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788460063,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "f579de70"
+        },
+        "hash": "ca3895d6",
+        "messageId": "system_0db5a500-a7c5-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_0db5a500-a7c5-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/3/2026, 11:57:43 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "83ff77": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788460285,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "01714ebd"
+        },
+        "hash": "310a7f00",
+        "messageId": "system_7fdfdf10-a7c5-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_7fdfdf10-a7c5-11f1-8dda-ff0782ab4765-Codeblock-1",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/4/2026, 12:01:25 AM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "d698ec": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788460315,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "01714ebd"
+        },
+        "hash": "ca3895d6",
+        "messageId": "system_7fdfdf10-a7c5-11f1-8dda-ff0782ab4765",
+        "codeBlockId": "system_7fdfdf10-a7c5-11f1-8dda-ff0782ab4765-Codeblock-2",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/4/2026, 12:01:55 AM\n- **source**: chat\n- **type**: copyCode\n"
+      }
+    },
+    "lines": {
+      "1": {
+        "chunkId": "0ba3d7",
+        "hash": "d0540184",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "6": {
+        "chunkId": "0ba3d7",
+        "hash": "a466b5ed",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "16": {
+        "chunkId": "0ba3d7",
+        "hash": "079fc90e",
+        "encoded": "import%20argparse",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "18": {
+        "chunkId": "0ba3d7",
+        "hash": "d90cbfa3",
+        "encoded": "from%20src.utils%20import%20setup_logger",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "20": {
+        "chunkId": "0ba3d7",
+        "hash": "7a219482",
+        "encoded": "logger%20=%20setup_logger(__name__)",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "23": {
+        "chunkId": "0ba3d7",
+        "hash": "76b99b6f",
+        "encoded": "def%20main():",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "24": {
+        "chunkId": "0ba3d7",
+        "hash": "69fe45c4",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "25": {
+        "chunkId": "0ba3d7",
+        "hash": "7481dfa7",
+        "encoded": "Run%20enrichment%20stage.",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "27": {
+        "chunkId": "0ba3d7",
+        "hash": "cde0e49a",
+        "encoded": "parser%20=%20argparse.ArgumentParser(",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "28": {
+        "chunkId": "0ba3d7",
+        "hash": "3644995a",
+        "encoded": "description='Run%20Data%20Enrichment%20Stage',",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "29": {
+        "chunkId": "0ba3d7",
+        "hash": "d9ecbe20",
+        "encoded": "formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "30": {
+        "chunkId": "0ba3d7",
+        "hash": "3a20506c",
+        "encoded": "epilog=%22%22%22",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "31": {
+        "chunkId": "0ba3d7",
+        "hash": "0f1c23ec",
+        "encoded": "Examples:",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "32": {
+        "chunkId": "0ba3d7",
+        "hash": "7b4307b7",
+        "encoded": "python%20run_enrichment.py%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Auto-detect%20engine",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "33": {
+        "chunkId": "0ba3d7",
+        "hash": "ebb88805",
+        "encoded": "python%20run_enrichment.py%20--engine%20pandas%20%20%20#%20Use%20Pandas",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "34": {
+        "chunkId": "0ba3d7",
+        "hash": "6b3ed1eb",
+        "encoded": "python%20run_enrichment.py%20--engine%20spark%20%20%20%20#%20Use%20PySpark",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "36": {
+        "chunkId": "0ba3d7",
+        "hash": "124ba173",
+        "encoded": ")",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "38": {
+        "chunkId": "0ba3d7",
+        "hash": "0149ce75",
+        "encoded": "parser.add_argument(",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "39": {
+        "chunkId": "0ba3d7",
+        "hash": "090ca660",
+        "encoded": "'--engine',",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "40": {
+        "chunkId": "0ba3d7",
+        "hash": "90716098",
+        "encoded": "choices=%5B'pandas',%20'spark',%20'auto'%5D,",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "41": {
+        "chunkId": "0ba3d7",
+        "hash": "f9f72636",
+        "encoded": "default='auto',",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "42": {
+        "chunkId": "0ba3d7",
+        "hash": "7def89bf",
+        "encoded": "help='Processing%20engine:%20pandas,%20spark,%20or%20auto%20(default:%20auto)'",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "43": {
+        "chunkId": "0ba3d7",
+        "hash": "de9a7b90",
+        "encoded": ")",
+        "prevChunkIds": [
+          "0ba3d7"
+        ]
+      },
+      "75": {
+        "chunkId": "bf0fbc",
+        "hash": "04ac9389",
+        "encoded": "#%20Determine%20engine",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "76": {
+        "chunkId": "bf0fbc",
+        "hash": "ee9181f2",
+        "encoded": "engine%20=%20args.engine",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "77": {
+        "chunkId": "bf0fbc",
+        "hash": "109a8a05",
+        "encoded": "if%20engine%20==%20'auto':",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "78": {
+        "chunkId": "bf0fbc",
+        "hash": "dd101fee",
+        "encoded": "#%20Use%20Pandas%20by%20default%20(simpler,%20faster%20for%20this%20data%20size)",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "79": {
+        "chunkId": "bf0fbc",
+        "hash": "5a02c523",
+        "encoded": "engine%20=%20'pandas'",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "80": {
+        "chunkId": "bf0fbc",
+        "hash": "e00ff70c",
+        "encoded": "logger.info(f%22Auto-selected%20engine:%20%7Bengine%7D%22)",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "82": {
+        "chunkId": "bf0fbc",
+        "hash": "764c034f",
+        "encoded": "logger.info(f%22%5CnUsing%20engine:%20%7Bengine.upper()%7D%22)",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "84": {
+        "chunkId": "bf0fbc",
+        "hash": "2e85b836",
+        "encoded": "#%20Run%20enrichment",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "85": {
+        "chunkId": "bf0fbc",
+        "hash": "af7badd0",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "86": {
+        "chunkId": "bf0fbc",
+        "hash": "b4f63f98",
+        "encoded": "logger.info(%22%5CnRunning%20temperature%20enrichment...%5Cn%22)",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "88": {
+        "chunkId": "bf0fbc",
+        "hash": "02c46a30",
+        "encoded": "if%20engine%20==%20'spark':",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "89": {
+        "chunkId": "bf0fbc",
+        "hash": "61ad6db3",
+        "encoded": "from%20src.enrichment.enrich_data_spark%20import%20enrich_data_spark",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "90": {
+        "chunkId": "bf0fbc",
+        "hash": "eb0c5a9d",
+        "encoded": "success,%20enriched_df%20=%20enrich_data_spark()",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "91": {
+        "chunkId": "bf0fbc",
+        "hash": "1d9e0c2e",
+        "encoded": "else:%20%20#%20pandas",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "92": {
+        "chunkId": "bf0fbc",
+        "hash": "9b9947c7",
+        "encoded": "from%20src.enrichment%20import%20enrich_data",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "93": {
+        "chunkId": "bf0fbc",
+        "hash": "74ae24f1",
+        "encoded": "success,%20enriched_df%20=%20enrich_data()",
+        "prevChunkIds": [
+          "bf0fbc"
+        ]
+      },
+      "103": {
+        "chunkId": "aa6972",
+        "hash": "605a9146",
+        "encoded": "total_matches%20=%20len(enriched_df)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "105": {
+        "chunkId": "aa6972",
+        "hash": "8756bd2c",
+        "encoded": "#%20Check%20which%20temperature%20column%20exists",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "106": {
+        "chunkId": "aa6972",
+        "hash": "f3f3b1ce",
+        "encoded": "temp_col%20=%20'avg_temperature_celsius'%20if%20'avg_temperature_celsius'%20in%20enriched_df.columns%20else%20'temperature'",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "108": {
+        "chunkId": "aa6972",
+        "hash": "93b93d48",
+        "encoded": "matches_with_temp%20=%20enriched_df%5Btemp_col%5D.notna().sum()",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "109": {
+        "chunkId": "aa6972",
+        "hash": "5b57412b",
+        "encoded": "match_rate%20=%20(matches_with_temp%20/%20total_matches%20*%20100)%20if%20total_matches%20%3E%200%20else%200",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "111": {
+        "chunkId": "aa6972",
+        "hash": "7d06c227",
+        "encoded": "logger.info(f%22%5CnEnrichment%20Statistics:%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "112": {
+        "chunkId": "aa6972",
+        "hash": "043586e7",
+        "encoded": "logger.info(f%22%20%20Total%20matches:%20%7Btotal_matches:,%7D%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "113": {
+        "chunkId": "aa6972",
+        "hash": "a01bff32",
+        "encoded": "logger.info(f%22%20%20Matches%20with%20temperature:%20%7Bmatches_with_temp:,%7D%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "114": {
+        "chunkId": "aa6972",
+        "hash": "1a2f433e",
+        "encoded": "logger.info(f%22%20%20Match%20rate:%20%7Bmatch_rate:.1f%7D%25%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "116": {
+        "chunkId": "aa6972",
+        "hash": "fffff4af",
+        "encoded": "if%20temp_col%20in%20enriched_df.columns:",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "117": {
+        "chunkId": "aa6972",
+        "hash": "17e112ef",
+        "encoded": "temp_stats%20=%20enriched_df%5Btemp_col%5D.describe()",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "118": {
+        "chunkId": "aa6972",
+        "hash": "37d680f5",
+        "encoded": "logger.info(f%22%5CnTemperature%20Statistics:%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "119": {
+        "chunkId": "aa6972",
+        "hash": "6e0334e5",
+        "encoded": "logger.info(f%22%20%20Mean:%20%7Btemp_stats%5B'mean'%5D:.1f%7D%C2%B0C%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "120": {
+        "chunkId": "aa6972",
+        "hash": "bd2ebc82",
+        "encoded": "logger.info(f%22%20%20Min:%20%7Btemp_stats%5B'min'%5D:.1f%7D%C2%B0C%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "121": {
+        "chunkId": "aa6972",
+        "hash": "6a7f2cbd",
+        "encoded": "logger.info(f%22%20%20Max:%20%7Btemp_stats%5B'max'%5D:.1f%7D%C2%B0C%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "123": {
+        "chunkId": "aa6972",
+        "hash": "9c3a717d",
+        "encoded": "#%20Show%20temperature%20distribution%20if%20category%20exists",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "124": {
+        "chunkId": "aa6972",
+        "hash": "271c0dd4",
+        "encoded": "if%20'temperature_category'%20in%20enriched_df.columns:",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "125": {
+        "chunkId": "aa6972",
+        "hash": "a164175e",
+        "encoded": "logger.info(f%22%5CnTemperature%20Distribution:%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "126": {
+        "chunkId": "aa6972",
+        "hash": "18a4958c",
+        "encoded": "cat_dist%20=%20enriched_df%5B'temperature_category'%5D.value_counts().to_dict()",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "127": {
+        "chunkId": "aa6972",
+        "hash": "764cacbf",
+        "encoded": "for%20category,%20count%20in%20sorted(cat_dist.items(),%20key=lambda%20x:%20x%5B1%5D,%20reverse=True):",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      },
+      "128": {
+        "chunkId": "aa6972",
+        "hash": "56605dab",
+        "encoded": "logger.info(f%22%20%20%7Bcategory%7D:%20%7Bcount:,%7D%20matches%22)",
+        "prevChunkIds": [
+          "aa6972"
+        ]
+      }
+    },
+    "_prevLineCount": 152
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "src\\config\\__init__.py": {
+    "filename": "__init__.py",
+    "path": "src\\config\\__init__.py",
+    "version": "1.2",
+    "contextFile": "dc960b1b-context.json",
+    "chunks": {
+      "d32635": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788625138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "ad4cf042"
+        },
+        "hash": "0eb28033",
+        "messageId": "system_571c29b0-a7c7-11f1-8dda-ff0782ab4765",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/5/2026, 9:48:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "d32635",
+        "hash": "8ca4eaf1",
+        "encoded": "%22%22%22Configuration%20package%20for%20World%20Cup%20pipeline.%22%22%22",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d32635",
+        "hash": "7d807ec2",
+        "encoded": "from%20.config%20import%20get_database_url,%20MedallionConfig",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "d32635",
+        "hash": "bdd438da",
+        "encoded": "from%20.%20import%20config",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d32635",
+        "hash": "ebb0d5df",
+        "encoded": "__all__%20=%20%5B%22config%22,%20%22get_database_url%22,%20%22MedallionConfig%22%5D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

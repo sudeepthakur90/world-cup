@@ -1,0 +1,15 @@
+{
+  "filename": "main.py",
+  "path": "src\\main.py",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "bb101656": {
+      "value": "python run_transformation.py --engine pandas :-  this works fine \npython run_transformation.py --engine spark :- this is having error \n\n✓ Standardized column names\n{\"ts\": \"2026-09-02 23:06:45.056\", \"level\": \"ERROR\", \"logger\": \"DataFrameQueryContextLogger\", \"msg\": \"[UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `datetime` cannot be resolved. Did you mean one of the following? [`date`, `time`, `stadium`, `awayteam`, `city`]. SQLSTATE: 42703\", \"context\": {\"f"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

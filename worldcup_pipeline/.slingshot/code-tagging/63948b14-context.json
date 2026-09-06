@@ -1,0 +1,21 @@
+{
+  "filename": "config.py",
+  "path": "src\\config\\config.py",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "1f01294a": {
+      "value": "Below are the data sources\n\nhttps://public.tableau.com/app/sample-data/world_cup_results.xlsx\nhttps://ourworldindata.org/grapher/average-monthly-surface-temperature.zip?v=1&csvType=full&useColumnShortNames=false"
+    },
+    "7de048cd": {
+      "value": "yes do  it"
+    },
+    "ad4cf042": {
+      "value": "error in analytics\nRROR - Pipeline failed: 'Config' object has no attribute 'db_url'\n2026-09-04 00:12:39 - ERROR - Traceback (most recent call last):\n  File \"C:\\Users\\sudthaku3\\AI\\worldcup_pipeline\\src\\main_adaptive.py\", line 96, in run_full_pipeline\n    self._print_summary()\n    ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\sudthaku3\\AI\\worldcup_pipeline\\src\\main_adaptive.py\", line 252, in _print_summary\n    logger.info(f\"  Database: {config.db_url}\")\n                               ^^^^^^^^^^^^^\nAttri"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

@@ -1,0 +1,1808 @@
+{
+  "src\\ingestion\\download_data.py": {
+    "filename": "download_data.py",
+    "path": "src\\ingestion\\download_data.py",
+    "version": "1.2",
+    "contextFile": "41a5bd6d-context.json",
+    "chunks": {
+      "de850e": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788337907,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "3d0bf004"
+        },
+        "hash": "1a7fc236",
+        "messageId": "system_06b4ba20-a6a8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 2:01:47 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "977b96": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788344929,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1f01294a"
+        },
+        "hash": "2988553d",
+        "messageId": "system_4a5b5990-a6b8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 3:58:49 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "48d7df": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788344929,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1f01294a"
+        },
+        "hash": "a72ffe70",
+        "messageId": "system_4a5b5990-a6b8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 3:58:49 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "810b01": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788344929,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1f01294a"
+        },
+        "hash": "3cccc32e",
+        "messageId": "system_4a5b5990-a6b8-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 3:58:49 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "e0a652": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788347451,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "e1d41f04"
+        },
+        "hash": "9590ea2b",
+        "messageId": "system_71457350-a6be-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 4:40:51 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "e05da5": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788347451,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "e1d41f04"
+        },
+        "hash": "edd2a754",
+        "messageId": "system_71457350-a6be-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 4:40:51 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "f863db": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788347722,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "144aece2"
+        },
+        "hash": "31b2f8ce",
+        "messageId": "system_2f0d2130-a6bf-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 4:45:22 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "fb8703": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788347722,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "144aece2"
+        },
+        "hash": "149c93ab",
+        "messageId": "system_2f0d2130-a6bf-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 4:45:22 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "2ff83f": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788347722,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "144aece2"
+        },
+        "hash": "8d7242c0",
+        "messageId": "system_2f0d2130-a6bf-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 4:45:22 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "aed6de": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788347722,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "144aece2"
+        },
+        "hash": "9cbf69ea",
+        "messageId": "system_2f0d2130-a6bf-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 4:45:22 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "17e477": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788347722,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "144aece2"
+        },
+        "hash": "c6a5dba9",
+        "messageId": "system_2f0d2130-a6bf-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 4:45:22 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "73be2c": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788348918,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "7de048cd"
+        },
+        "hash": "5f15e271",
+        "messageId": "system_e2f98ba0-a6c1-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 5:05:18 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "fab7dc": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788348918,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "7de048cd"
+        },
+        "hash": "7f1cb19e",
+        "messageId": "system_e2f98ba0-a6c1-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 5:05:18 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "48d7df",
+        "hash": "9cef9ccb",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "5": {
+        "chunkId": "48d7df",
+        "hash": "22e6eb0c",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "7": {
+        "chunkId": "de850e",
+        "hash": "f610e2d8",
+        "encoded": "import%20sys",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "8": {
+        "chunkId": "de850e",
+        "hash": "8d16ff13",
+        "encoded": "import%20time",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "9": {
+        "chunkId": "de850e",
+        "hash": "44a92bad",
+        "encoded": "import%20zipfile",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "11": {
+        "chunkId": "de850e",
+        "hash": "d1430344",
+        "encoded": "from%20pathlib%20import%20Path",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "14": {
+        "chunkId": "de850e",
+        "hash": "d802149f",
+        "encoded": "#%20Add%20project%20root%20to%20path",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "15": {
+        "chunkId": "de850e",
+        "hash": "6e6f579e",
+        "encoded": "project_root%20=%20Path(__file__).parent.parent.parent",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "16": {
+        "chunkId": "de850e",
+        "hash": "5c59f213",
+        "encoded": "if%20str(project_root)%20not%20in%20sys.path:",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "17": {
+        "chunkId": "de850e",
+        "hash": "efbcd171",
+        "encoded": "sys.path.insert(0,%20str(project_root))",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "19": {
+        "chunkId": "de850e",
+        "hash": "6d011d66",
+        "encoded": "import%20requests",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "20": {
+        "chunkId": "de850e",
+        "hash": "229168e8",
+        "encoded": "from%20requests.adapters%20import%20HTTPAdapter",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "21": {
+        "chunkId": "de850e",
+        "hash": "5acba23f",
+        "encoded": "from%20urllib3.util.retry%20import%20Retry",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "24": {
+        "chunkId": "de850e",
+        "hash": "4dcc3ad7",
+        "encoded": "from%20src.config%20import%20config",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "25": {
+        "chunkId": "de850e",
+        "hash": "29444eba",
+        "encoded": "from%20src.utils%20import%20setup_logger",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "27": {
+        "chunkId": "de850e",
+        "hash": "61980637",
+        "encoded": "logger%20=%20setup_logger(__name__)",
+        "prevChunkIds": [
+          "de850e"
+        ]
+      },
+      "30": {
+        "chunkId": "17e477",
+        "hash": "e4feb5bd",
+        "encoded": "#%20Data%20source%20URLs%20-%20Official%20sources%20only",
+        "prevChunkIds": [
+          "17e477"
+        ]
+      },
+      "31": {
+        "chunkId": "17e477",
+        "hash": "f244762f",
+        "encoded": "WORLDCUP_SOURCES%20=%20%5B",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "32": {
+        "chunkId": "17e477",
+        "hash": "4ad748de",
+        "encoded": "%7B",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "33": {
+        "chunkId": "17e477",
+        "hash": "504dd6dc",
+        "encoded": "%22url%22:%20%22https://public.tableau.com/app/sample-data/world_cup_results.xlsx%22,",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "34": {
+        "chunkId": "17e477",
+        "hash": "6aa13dfa",
+        "encoded": "%22name%22:%20%22Tableau%20Public%22,",
+        "prevChunkIds": [
+          "17e477"
+        ]
+      },
+      "35": {
+        "chunkId": "17e477",
+        "hash": "e75cf629",
+        "encoded": "%22format%22:%20%22excel%22",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "36": {
+        "chunkId": "17e477",
+        "hash": "b14d68ea",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "37": {
+        "chunkId": "17e477",
+        "hash": "4d38790d",
+        "encoded": "%5D",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "39": {
+        "chunkId": "17e477",
+        "hash": "bc5d0822",
+        "encoded": "TEMPERATURE_SOURCES%20=%20%5B",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "40": {
+        "chunkId": "17e477",
+        "hash": "17a56fa2",
+        "encoded": "%7B",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "41": {
+        "chunkId": "17e477",
+        "hash": "64f52c35",
+        "encoded": "%22url%22:%20%22https://ourworldindata.org/grapher/average-monthly-surface-temperature.zip?v=1&csvType=full&useColumnShortNames=false%22,",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "42": {
+        "chunkId": "17e477",
+        "hash": "d61b87a6",
+        "encoded": "%22name%22:%20%22Our%20World%20in%20Data%22,",
+        "prevChunkIds": [
+          "17e477"
+        ]
+      },
+      "43": {
+        "chunkId": "17e477",
+        "hash": "159ab766",
+        "encoded": "%22format%22:%20%22zip%22",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "44": {
+        "chunkId": "17e477",
+        "hash": "5046e502",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "45": {
+        "chunkId": "17e477",
+        "hash": "eb0a7824",
+        "encoded": "%5D",
+        "prevChunkIds": [
+          "17e477",
+          "810b01"
+        ]
+      },
+      "49": {
+        "chunkId": "977b96",
+        "hash": "5fd79e81",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "977b96"
+        ]
+      },
+      "51": {
+        "chunkId": "e0a652",
+        "hash": "2ce5d582",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "e0a652"
+        ]
+      },
+      "54": {
+        "chunkId": "e0a652",
+        "hash": "396214d9",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "e0a652"
+        ]
+      },
+      "60": {
+        "chunkId": "e0a652",
+        "hash": "03d7064f",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "e0a652"
+        ]
+      },
+      "66": {
+        "chunkId": "e0a652",
+        "hash": "203c6b78",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "e0a652"
+        ]
+      },
+      "69": {
+        "chunkId": "48d7df",
+        "hash": "cf72df07",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "71": {
+        "chunkId": "977b96",
+        "hash": "116951cb",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "977b96"
+        ]
+      },
+      "79": {
+        "chunkId": "48d7df",
+        "hash": "9fb6e0c5",
+        "encoded": ")",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "93": {
+        "chunkId": "fb8703",
+        "hash": "c1b52731",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "101": {
+        "chunkId": "977b96",
+        "hash": "dd9b8772",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "977b96"
+        ]
+      },
+      "103": {
+        "chunkId": "fb8703",
+        "hash": "35c7943f",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "106": {
+        "chunkId": "48d7df",
+        "hash": "23bee7a0",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "117": {
+        "chunkId": "73be2c",
+        "hash": "056477bc",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "73be2c"
+        ]
+      },
+      "118": {
+        "chunkId": "977b96",
+        "hash": "7f77050d",
+        "encoded": ")",
+        "prevChunkIds": [
+          "977b96"
+        ]
+      },
+      "154": {
+        "chunkId": "fab7dc",
+        "hash": "1e7645f1",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "160": {
+        "chunkId": "fab7dc",
+        "hash": "b9a98551",
+        "encoded": "def%20download_worldcup_data()%20-%3E%20Tuple%5Bbool,%20Optional%5BPath%5D%5D:",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "161": {
+        "chunkId": "f863db",
+        "hash": "e20b9027",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "162": {
+        "chunkId": "fab7dc",
+        "hash": "c81b41d5",
+        "encoded": "Download%20World%20Cup%20dataset%20from%20Tableau%20Public.",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "163": {
+        "chunkId": "fab7dc",
+        "hash": "8a8ea84e",
+        "encoded": "Saves%20in%20both%20Excel%20and%20CSV%20formats%20for%20Pandas/Spark%20compatibility.",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "e0a652",
+        "hash": "acf16e26",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "e0a652"
+        ]
+      },
+      "166": {
+        "chunkId": "fab7dc",
+        "hash": "38610874",
+        "encoded": "Tuple%20of%20(success:%20bool,%20file_path:%20Optional%5BPath%5D)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "167": {
+        "chunkId": "f863db",
+        "hash": "d62550bb",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "168": {
+        "chunkId": "fab7dc",
+        "hash": "c15e0878",
+        "encoded": "downloader%20=%20DataDownloader()",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "169": {
+        "chunkId": "fab7dc",
+        "hash": "47d71a10",
+        "encoded": "excel_dest%20=%20config.raw_data_path%20/%20config.worldcup_raw",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "fab7dc",
+        "hash": "2c5b800a",
+        "encoded": "csv_dest%20=%20config.raw_data_path%20/%20%22WorldCupMatches.csv%22",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "fab7dc",
+        "hash": "024312b6",
+        "encoded": "source%20=%20WORLDCUP_SOURCES%5B0%5D%20%20#%20Only%20one%20source",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "173": {
+        "chunkId": "fab7dc",
+        "hash": "8b05b32e",
+        "encoded": "logger.info(%22=%22*60)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "174": {
+        "chunkId": "fab7dc",
+        "hash": "42df4a2e",
+        "encoded": "logger.info(%22DOWNLOADING%20WORLD%20CUP%20DATASET%22)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "175": {
+        "chunkId": "fab7dc",
+        "hash": "9b673770",
+        "encoded": "logger.info(%22=%22*60)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "176": {
+        "chunkId": "fab7dc",
+        "hash": "cb6584c5",
+        "encoded": "logger.info(f%22Source:%20%7Bsource%5B'name'%5D%7D%22)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "177": {
+        "chunkId": "fab7dc",
+        "hash": "c880714a",
+        "encoded": "logger.info(f%22Format:%20Excel%20(.xlsx)%20+%20CSV%20for%20Spark%20compatibility%22)",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "fab7dc",
+        "hash": "93587cf8",
+        "encoded": "#%20Download%20the%20Excel%20file",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "fab7dc",
+        "hash": "39f16c80",
+        "encoded": "success,%20error%20=%20downloader.download_file(",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "181": {
+        "chunkId": "48d7df",
+        "hash": "c9846c47",
+        "encoded": "source%5B'url'%5D,",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "182": {
+        "chunkId": "fab7dc",
+        "hash": "fc8ddccf",
+        "encoded": "excel_dest,",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "fab7dc",
+        "hash": "5d84e973",
+        "encoded": "%22World%20Cup%20Matches%20(1930-2014)%22",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "184": {
+        "chunkId": "977b96",
+        "hash": "6b12f620",
+        "encoded": ")",
+        "prevChunkIds": [
+          "977b96"
+        ]
+      },
+      "186": {
+        "chunkId": "48d7df",
+        "hash": "5c8c50b6",
+        "encoded": "if%20success:",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "187": {
+        "chunkId": "fab7dc",
+        "hash": "898f4bfe",
+        "encoded": "#%20Validate%20and%20convert%20to%20CSV%20for%20Spark%20compatibility",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "fab7dc",
+        "hash": "2d626318",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "189": {
+        "chunkId": "fab7dc",
+        "hash": "7be4bf7d",
+        "encoded": "#%20Read%20and%20validate%20Excel",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "fab7dc",
+        "hash": "9e001115",
+        "encoded": "df%20=%20pd.read_excel(excel_dest)",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "fab7dc",
+        "hash": "c1362191",
+        "encoded": "logger.info(f%22%E2%9C%93%20Validation:%20%7Blen(df)%7D%20records%20loaded%22)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "192": {
+        "chunkId": "fab7dc",
+        "hash": "ca207b29",
+        "encoded": "logger.info(f%22%E2%9C%93%20Columns:%20%7Blist(df.columns)%5B:5%5D%7D...%22)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "194": {
+        "chunkId": "fab7dc",
+        "hash": "6af044a1",
+        "encoded": "#%20Save%20as%20CSV%20for%20Spark%20compatibility",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "fab7dc",
+        "hash": "4eb45263",
+        "encoded": "df.to_csv(csv_dest,%20index=False)",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "fab7dc",
+        "hash": "6c78546c",
+        "encoded": "csv_size_mb%20=%20csv_dest.stat().st_size%20/%20(1024%20*%201024)",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "fab7dc",
+        "hash": "1f1d471f",
+        "encoded": "logger.info(f%22%E2%9C%93%20Saved%20CSV%20version%20for%20Spark:%20%7Bcsv_dest.name%7D%20(%7Bcsv_size_mb:.2f%7D%20MB)%22)",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "48d7df",
+        "hash": "13a05304",
+        "encoded": "logger.info(f%22%E2%9C%93%20Successfully%20downloaded%20from%20%7Bsource%5B'name'%5D%7D%22)",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "200": {
+        "chunkId": "fab7dc",
+        "hash": "36bf6793",
+        "encoded": "logger.info(f%22%E2%9C%93%20Files%20ready%20for%20both%20Pandas%20(Excel)%20and%20Spark%20(CSV)%22)",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "fab7dc",
+        "hash": "17587a60",
+        "encoded": "return%20True,%20excel_dest",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "fb8703",
+        "hash": "a04b6074",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "977b96",
+          "fb8703"
+        ]
+      },
+      "203": {
+        "chunkId": "fab7dc",
+        "hash": "f689a17c",
+        "encoded": "logger.error(f%22Downloaded%20file%20validation%20failed:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "204": {
+        "chunkId": "fab7dc",
+        "hash": "a13912a2",
+        "encoded": "return%20False,%20None",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "206": {
+        "chunkId": "aed6de",
+        "hash": "6dedf67e",
+        "encoded": "#%20Download%20failed",
+        "prevChunkIds": [
+          "aed6de",
+          "48d7df"
+        ]
+      },
+      "207": {
+        "chunkId": "aed6de",
+        "hash": "b7b2f075",
+        "encoded": "logger.error(%22%5Cn%22%20+%20%22=%22*60)",
+        "prevChunkIds": [
+          "aed6de",
+          "48d7df"
+        ]
+      },
+      "208": {
+        "chunkId": "aed6de",
+        "hash": "782d1d34",
+        "encoded": "logger.error(%22FAILED%20TO%20DOWNLOAD%20WORLD%20CUP%20DATA%22)",
+        "prevChunkIds": [
+          "aed6de"
+        ]
+      },
+      "209": {
+        "chunkId": "aed6de",
+        "hash": "192d4dff",
+        "encoded": "logger.error(%22=%22*60)",
+        "prevChunkIds": [
+          "aed6de"
+        ]
+      },
+      "210": {
+        "chunkId": "aed6de",
+        "hash": "6759b1ef",
+        "encoded": "logger.error(%22%5CnPlease%20try%20these%20options:%22)",
+        "prevChunkIds": [
+          "aed6de",
+          "48d7df"
+        ]
+      },
+      "211": {
+        "chunkId": "aed6de",
+        "hash": "9dcf1b71",
+        "encoded": "logger.error(%221.%20Check%20your%20internet%20connection%22)",
+        "prevChunkIds": [
+          "aed6de"
+        ]
+      },
+      "212": {
+        "chunkId": "aed6de",
+        "hash": "2f282d63",
+        "encoded": "logger.error(%222.%20Verify%20Tableau%20website%20is%20accessible%22)",
+        "prevChunkIds": [
+          "aed6de",
+          "48d7df"
+        ]
+      },
+      "213": {
+        "chunkId": "aed6de",
+        "hash": "17150f46",
+        "encoded": "logger.error(%223.%20Download%20manually%20from:%22)",
+        "prevChunkIds": [
+          "aed6de",
+          "48d7df"
+        ]
+      },
+      "214": {
+        "chunkId": "aed6de",
+        "hash": "0c5d99be",
+        "encoded": "logger.error(%22%20%20%20https://public.tableau.com/app/sample-data/world_cup_results.xlsx%22)",
+        "prevChunkIds": [
+          "aed6de"
+        ]
+      },
+      "215": {
+        "chunkId": "aed6de",
+        "hash": "8b3b7366",
+        "encoded": "logger.error(f%224.%20Save%20the%20file%20as:%20%7Bconfig.raw_data_path%20/%20config.worldcup_raw%7D%22)",
+        "prevChunkIds": [
+          "aed6de",
+          "48d7df"
+        ]
+      },
+      "216": {
+        "chunkId": "aed6de",
+        "hash": "8c10ec90",
+        "encoded": "logger.error(%22=%22*60)",
+        "prevChunkIds": [
+          "aed6de",
+          "48d7df"
+        ]
+      },
+      "217": {
+        "chunkId": "fb8703",
+        "hash": "07c86192",
+        "encoded": "return%20False,%20None",
+        "prevChunkIds": [
+          "aed6de",
+          "fb8703"
+        ]
+      },
+      "220": {
+        "chunkId": "f863db",
+        "hash": "9f801959",
+        "encoded": "def%20download_temperature_data()%20-%3E%20Tuple%5Bbool,%20Optional%5BPath%5D%5D:",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "221": {
+        "chunkId": "fab7dc",
+        "hash": "f2eeb7c3",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "f863db",
+        "hash": "a2ec4214",
+        "encoded": "Download%20temperature%20dataset%20from%20Our%20World%20in%20Data.",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "223": {
+        "chunkId": "f863db",
+        "hash": "2c63aa36",
+        "encoded": "ZIP%20format%20containing%20CSV.",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "225": {
+        "chunkId": "fab7dc",
+        "hash": "4160e558",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "226": {
+        "chunkId": "fb8703",
+        "hash": "74eb8e4f",
+        "encoded": "Tuple%20of%20(success:%20bool,%20file_path:%20Optional%5BPath%5D)",
+        "prevChunkIds": [
+          "48d7df",
+          "fb8703"
+        ]
+      },
+      "227": {
+        "chunkId": "fab7dc",
+        "hash": "386d4ba8",
+        "encoded": "%22%22%22",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "fb8703",
+        "hash": "e6d49b66",
+        "encoded": "downloader%20=%20DataDownloader()",
+        "prevChunkIds": [
+          "48d7df",
+          "fb8703"
+        ]
+      },
+      "229": {
+        "chunkId": "f863db",
+        "hash": "eda4320f",
+        "encoded": "final_destination%20=%20config.raw_data_path%20/%20config.temperature_raw",
+        "prevChunkIds": [
+          "f863db",
+          "aed6de"
+        ]
+      },
+      "230": {
+        "chunkId": "f863db",
+        "hash": "ff81f5c9",
+        "encoded": "source%20=%20TEMPERATURE_SOURCES%5B0%5D%20%20#%20Only%20one%20source",
+        "prevChunkIds": [
+          "f863db",
+          "aed6de"
+        ]
+      },
+      "231": {
+        "chunkId": "f863db",
+        "hash": "5092f25b",
+        "encoded": "zip_path%20=%20config.raw_data_path%20/%20%22temperature_data.zip%22",
+        "prevChunkIds": [
+          "f863db",
+          "aed6de"
+        ]
+      },
+      "233": {
+        "chunkId": "f863db",
+        "hash": "50e1fd9b",
+        "encoded": "logger.info(%22%5Cn%22%20+%20%22=%22*60)",
+        "prevChunkIds": [
+          "f863db",
+          "aed6de"
+        ]
+      },
+      "234": {
+        "chunkId": "f863db",
+        "hash": "73955e5d",
+        "encoded": "logger.info(%22DOWNLOADING%20TEMPERATURE%20DATASET%22)",
+        "prevChunkIds": [
+          "f863db",
+          "aed6de"
+        ]
+      },
+      "235": {
+        "chunkId": "fb8703",
+        "hash": "c8b1b84b",
+        "encoded": "logger.info(%22=%22*60)",
+        "prevChunkIds": [
+          "48d7df",
+          "fb8703"
+        ]
+      },
+      "236": {
+        "chunkId": "fb8703",
+        "hash": "9bab64e7",
+        "encoded": "logger.info(f%22Source:%20%7Bsource%5B'name'%5D%7D%22)",
+        "prevChunkIds": [
+          "f863db",
+          "fb8703"
+        ]
+      },
+      "237": {
+        "chunkId": "f863db",
+        "hash": "21eca642",
+        "encoded": "logger.info(f%22Format:%20ZIP%20with%20CSV%20inside%22)",
+        "prevChunkIds": [
+          "f863db",
+          "aed6de"
+        ]
+      },
+      "239": {
+        "chunkId": "f863db",
+        "hash": "bcdc91b5",
+        "encoded": "#%20Download%20ZIP%20file",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "240": {
+        "chunkId": "fb8703",
+        "hash": "1790c635",
+        "encoded": "success,%20error%20=%20downloader.download_file(",
+        "prevChunkIds": [
+          "48d7df",
+          "fb8703"
+        ]
+      },
+      "241": {
+        "chunkId": "fab7dc",
+        "hash": "37e15009",
+        "encoded": "source%5B'url'%5D,",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "242": {
+        "chunkId": "f863db",
+        "hash": "c3eb647e",
+        "encoded": "zip_path,",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "243": {
+        "chunkId": "f863db",
+        "hash": "0fee7ebe",
+        "encoded": "%22Global%20Temperature%20Data%20(ZIP)%22",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "244": {
+        "chunkId": "fab7dc",
+        "hash": "67085c6f",
+        "encoded": ")",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "246": {
+        "chunkId": "f863db",
+        "hash": "1812f204",
+        "encoded": "if%20not%20success:",
+        "prevChunkIds": [
+          "f863db",
+          "977b96"
+        ]
+      },
+      "247": {
+        "chunkId": "aed6de",
+        "hash": "98cb0fc0",
+        "encoded": "return%20False,%20None",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "249": {
+        "chunkId": "f863db",
+        "hash": "7dc2b608",
+        "encoded": "#%20Extract%20ZIP",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "250": {
+        "chunkId": "f863db",
+        "hash": "61ef8b8d",
+        "encoded": "logger.info(%22Extracting%20ZIP%20file...%22)",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "251": {
+        "chunkId": "fb8703",
+        "hash": "aa47e17d",
+        "encoded": "try:",
+        "prevChunkIds": [
+          "977b96",
+          "fb8703"
+        ]
+      },
+      "252": {
+        "chunkId": "f863db",
+        "hash": "563c8e92",
+        "encoded": "with%20zipfile.ZipFile(zip_path,%20'r')%20as%20zip_ref:",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "253": {
+        "chunkId": "f863db",
+        "hash": "042fa8ac",
+        "encoded": "#%20List%20contents",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "254": {
+        "chunkId": "f863db",
+        "hash": "bc472837",
+        "encoded": "csv_files%20=%20%5Bf%20for%20f%20in%20zip_ref.namelist()%20if%20f.endswith('.csv')%5D",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "256": {
+        "chunkId": "f863db",
+        "hash": "9999ea19",
+        "encoded": "if%20not%20csv_files:",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "257": {
+        "chunkId": "f863db",
+        "hash": "65cc46b4",
+        "encoded": "logger.error(%22No%20CSV%20file%20found%20in%20ZIP%22)",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "258": {
+        "chunkId": "48d7df",
+        "hash": "930676db",
+        "encoded": "return%20False,%20None",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "260": {
+        "chunkId": "f863db",
+        "hash": "7b0d6655",
+        "encoded": "#%20Extract%20first%20CSV",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "261": {
+        "chunkId": "f863db",
+        "hash": "7b451f06",
+        "encoded": "csv_file%20=%20csv_files%5B0%5D",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "262": {
+        "chunkId": "f863db",
+        "hash": "e27c5714",
+        "encoded": "logger.info(f%22Extracting:%20%7Bcsv_file%7D%22)",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "263": {
+        "chunkId": "f863db",
+        "hash": "338234e1",
+        "encoded": "zip_ref.extract(csv_file,%20config.raw_data_path)",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "265": {
+        "chunkId": "f863db",
+        "hash": "ca5986ca",
+        "encoded": "#%20Rename%20to%20standard%20name",
+        "prevChunkIds": [
+          "f863db",
+          "977b96"
+        ]
+      },
+      "266": {
+        "chunkId": "f863db",
+        "hash": "cd65e5e5",
+        "encoded": "extracted_path%20=%20config.raw_data_path%20/%20csv_file",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "268": {
+        "chunkId": "f863db",
+        "hash": "a78dc3b7",
+        "encoded": "#%20Remove%20old%20file%20if%20exists",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "269": {
+        "chunkId": "f863db",
+        "hash": "b893a315",
+        "encoded": "if%20final_destination.exists():",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "270": {
+        "chunkId": "f863db",
+        "hash": "e1cc632f",
+        "encoded": "final_destination.unlink()",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "271": {
+        "chunkId": "f863db",
+        "hash": "4b814d39",
+        "encoded": "logger.info(f%22Removed%20old%20%7Bfinal_destination.name%7D%22)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "273": {
+        "chunkId": "f863db",
+        "hash": "3dff849b",
+        "encoded": "#%20Rename%20extracted%20file",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "274": {
+        "chunkId": "f863db",
+        "hash": "45e1bf07",
+        "encoded": "extracted_path.rename(final_destination)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "275": {
+        "chunkId": "f863db",
+        "hash": "70cc3c0d",
+        "encoded": "logger.info(f%22%E2%9C%93%20Renamed%20to%20%7Bfinal_destination.name%7D%22)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "277": {
+        "chunkId": "f863db",
+        "hash": "536370e8",
+        "encoded": "#%20Clean%20up%20ZIP",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "278": {
+        "chunkId": "f863db",
+        "hash": "650424b3",
+        "encoded": "if%20zip_path.exists():",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "279": {
+        "chunkId": "f863db",
+        "hash": "510c26bd",
+        "encoded": "zip_path.unlink()",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "280": {
+        "chunkId": "f863db",
+        "hash": "9521e649",
+        "encoded": "logger.info(%22%E2%9C%93%20Cleaned%20up%20ZIP%20file%22)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "282": {
+        "chunkId": "f863db",
+        "hash": "83f8319e",
+        "encoded": "#%20Clean%20up%20any%20leftover%20CSV%20files%20with%20original%20names",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "283": {
+        "chunkId": "f863db",
+        "hash": "23a2c37e",
+        "encoded": "for%20csv_pattern%20in%20%5B'average-monthly-*.csv'%5D:",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "284": {
+        "chunkId": "f863db",
+        "hash": "04a96836",
+        "encoded": "for%20leftover%20in%20config.raw_data_path.glob(csv_pattern):",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "285": {
+        "chunkId": "f863db",
+        "hash": "6479805f",
+        "encoded": "if%20leftover%20!=%20final_destination:",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "286": {
+        "chunkId": "f863db",
+        "hash": "2d73e2d0",
+        "encoded": "leftover.unlink()",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "287": {
+        "chunkId": "f863db",
+        "hash": "79969101",
+        "encoded": "logger.info(f%22%E2%9C%93%20Cleaned%20up%20%7Bleftover.name%7D%22)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "289": {
+        "chunkId": "f863db",
+        "hash": "0b3d6a26",
+        "encoded": "#%20Validate",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "290": {
+        "chunkId": "f863db",
+        "hash": "ba04ac6a",
+        "encoded": "df%20=%20pd.read_csv(final_destination,%20nrows=5)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "291": {
+        "chunkId": "f863db",
+        "hash": "183bef3c",
+        "encoded": "logger.info(f%22%E2%9C%93%20Validation:%20Temperature%20data%20loaded%22)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "292": {
+        "chunkId": "fb8703",
+        "hash": "d8351888",
+        "encoded": "logger.info(f%22%E2%9C%93%20Columns:%20%7Blist(df.columns)%5B:5%5D%7D...%22)",
+        "prevChunkIds": [
+          "f863db",
+          "fb8703"
+        ]
+      },
+      "293": {
+        "chunkId": "fab7dc",
+        "hash": "ffb146ce",
+        "encoded": "logger.info(f%22%E2%9C%93%20Successfully%20downloaded%20from%20%7Bsource%5B'name'%5D%7D%22)",
+        "prevChunkIds": [
+          "fb8703"
+        ]
+      },
+      "294": {
+        "chunkId": "f863db",
+        "hash": "db83e792",
+        "encoded": "return%20True,%20final_destination",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "296": {
+        "chunkId": "977b96",
+        "hash": "eda97290",
+        "encoded": "except%20Exception%20as%20e:",
+        "prevChunkIds": [
+          "73be2c",
+          "f863db",
+          "977b96"
+        ]
+      },
+      "297": {
+        "chunkId": "f863db",
+        "hash": "ff536056",
+        "encoded": "logger.error(f%22ZIP%20extraction%20failed:%20%7Be%7D%22)",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "298": {
+        "chunkId": "f863db",
+        "hash": "039e697a",
+        "encoded": "if%20zip_path.exists():",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "299": {
+        "chunkId": "f863db",
+        "hash": "8b036bf0",
+        "encoded": "zip_path.unlink()",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "300": {
+        "chunkId": "f863db",
+        "hash": "3e9bcb05",
+        "encoded": "return%20False,%20None",
+        "prevChunkIds": [
+          "f863db",
+          "48d7df"
+        ]
+      },
+      "302": {
+        "chunkId": "2ff83f",
+        "hash": "430e3868",
+        "encoded": "#%20Download%20failed",
+        "prevChunkIds": [
+          "2ff83f",
+          "f863db"
+        ]
+      },
+      "303": {
+        "chunkId": "48d7df",
+        "hash": "237af454",
+        "encoded": "logger.error(%22%5Cn%22%20+%20%22=%22*60)",
+        "prevChunkIds": [
+          "48d7df",
+          "f863db"
+        ]
+      },
+      "304": {
+        "chunkId": "2ff83f",
+        "hash": "e9eb0e03",
+        "encoded": "logger.error(%22FAILED%20TO%20DOWNLOAD%20TEMPERATURE%20DATA%22)",
+        "prevChunkIds": [
+          "2ff83f",
+          "f863db"
+        ]
+      },
+      "305": {
+        "chunkId": "48d7df",
+        "hash": "4631ca30",
+        "encoded": "logger.error(%22=%22*60)",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "306": {
+        "chunkId": "2ff83f",
+        "hash": "1b1d86a6",
+        "encoded": "logger.error(%22%5CnPlease%20try%20these%20options:%22)",
+        "prevChunkIds": [
+          "2ff83f",
+          "f863db"
+        ]
+      },
+      "307": {
+        "chunkId": "48d7df",
+        "hash": "a3207749",
+        "encoded": "logger.error(%221.%20Check%20your%20internet%20connection%22)",
+        "prevChunkIds": [
+          "48d7df",
+          "f863db"
+        ]
+      },
+      "308": {
+        "chunkId": "2ff83f",
+        "hash": "3e5aae61",
+        "encoded": "logger.error(%222.%20Verify%20Our%20World%20in%20Data%20website%20is%20accessible%22)",
+        "prevChunkIds": [
+          "2ff83f",
+          "f863db"
+        ]
+      },
+      "309": {
+        "chunkId": "2ff83f",
+        "hash": "def2bdc2",
+        "encoded": "logger.error(%223.%20Download%20manually%20from:%22)",
+        "prevChunkIds": [
+          "2ff83f",
+          "f863db"
+        ]
+      },
+      "310": {
+        "chunkId": "2ff83f",
+        "hash": "bf12e0e6",
+        "encoded": "logger.error(%22%20%20%20https://ourworldindata.org/grapher/average-monthly-surface-temperature.zip?v=1&csvType=full&useColumnShortNames=false%22)",
+        "prevChunkIds": [
+          "2ff83f"
+        ]
+      },
+      "311": {
+        "chunkId": "2ff83f",
+        "hash": "4ebf4ee8",
+        "encoded": "logger.error(%224.%20Extract%20the%20CSV%20from%20the%20ZIP%20file%22)",
+        "prevChunkIds": [
+          "2ff83f",
+          "f863db"
+        ]
+      },
+      "312": {
+        "chunkId": "2ff83f",
+        "hash": "f007bdc2",
+        "encoded": "logger.error(f%225.%20Save%20the%20CSV%20as:%20%7Bfinal_destination%7D%22)",
+        "prevChunkIds": [
+          "2ff83f",
+          "f863db"
+        ]
+      },
+      "313": {
+        "chunkId": "48d7df",
+        "hash": "5f00e792",
+        "encoded": "logger.error(%22=%22*60)",
+        "prevChunkIds": [
+          "48d7df"
+        ]
+      },
+      "314": {
+        "chunkId": "f863db",
+        "hash": "9d6f9890",
+        "encoded": "return%20False,%20None",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "317": {
+        "chunkId": "e0a652",
+        "hash": "32aeffa3",
+        "encoded": "def%20download_all_data()%20-%3E%20bool:",
+        "prevChunkIds": [
+          "48d7df",
+          "e0a652"
+        ]
+      },
+      "318": {
+        "chunkId": "f863db",
+        "hash": "ac26fd69",
+        "encoded": "%22%22%22",
+        "prevChunkIds": [
+          "f863db"
+        ]
+      },
+      "319": {
+        "chunkId": "e0a652",
+        "hash": "b15fabfc",
+        "encoded": "Download%20all%20required%20datasets.",
+        "prevChunkIds": [
+          "977b96",
+          "e0a652"
+        ]
+      },
+      "321": {
+        "chunkId": "fb8703",
+        "hash": "7cae90ab",
+        "encoded": "Returns:",
+        "prevChunkIds": [
+          "f863db",
+          "fb8703"
+        ]
+      },
+      "322": {
+        "chunkId": "e0a652",
+        "hash": "c43237a7",
+        "encoded": "bool:%20True%20if%20all%20downloads%20succeeded",
+        "prevChunkIds": [
+          "977b96",
+          "e0a652"
+        ]
+      },
+      "324": {
+        "chunkId": "e0a652",
+        "hash": "78f5e1f9",
+        "encoded": "logger.info(%22%5Cn%22%20+%20%22#%22*60)",
+        "prevChunkIds": [
+          "977b96",
+          "e0a652"
+        ]
+      },
+      "325": {
+        "chunkId": "e0a652",
+        "hash": "8ad91bec",
+        "encoded": "logger.info(%22#%22%20+%20%22%20%22*58%20+%20%22#%22)",
+        "prevChunkIds": [
+          "e0a652",
+          "977b96"
+        ]
+      },
+      "326": {
+        "chunkId": "e0a652",
+        "hash": "28d3212f",
+        "encoded": "logger.info(%22#%22%20+%20%22%20%20DATA%20INGESTION%20PROCESS%22.center(58)%20+%20%22#%22)",
+        "prevChunkIds": [
+          "e0a652"
+        ]
+      },
+      "327": {
+        "chunkId": "e0a652",
+        "hash": "31454c44",
+        "encoded": "logger.info(%22#%22%20+%20%22%20%22*58%20+%20%22#%22)",
+        "prevChunkIds": [
+          "e0a652",
+          "977b96"
+        ]
+      },
+      "328": {
+        "chunkId": "e0a652",
+        "hash": "58d7fedc",
+        "encoded": "logger.info(%22#%22*60%20+%20%22%5Cn%22)",
+        "prevChunkIds": [
+          "e0a652",
+          "2ff83f"
+        ]
+      },
+      "330": {
+        "chunkId": "e0a652",
+        "hash": "ba5f6239",
+        "encoded": "start_time%20=%20time.time()",
+        "prevChunkIds": [
+          "e0a652",
+          "2ff83f"
+        ]
+      },
+      "348": {
+        "chunkId": "977b96",
+        "hash": "f8c26811",
+        "encoded": "logger.info(%22%5Cn%22%20+%20%22=%22*60)",
+        "prevChunkIds": [
+          "e0a652",
+          "977b96"
+        ]
+      },
+      "350": {
+        "chunkId": "fb8703",
+        "hash": "534c8af5",
+        "encoded": "logger.info(%22=%22*60)",
+        "prevChunkIds": [
+          "e0a652",
+          "fb8703"
+        ]
+      }
+    },
+    "_prevLineCount": 377
+  }
+}

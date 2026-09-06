@@ -1,0 +1,27 @@
+{
+  "setup_spark_windows.py": {
+    "filename": "setup_spark_windows.py",
+    "path": "setup_spark_windows.py",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "e1589f": {
+        "user": "Sudeep Thakur",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788372032,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {},
+        "hash": "cd2e909a",
+        "messageId": "system_2e6b8500-a6f6-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": "system_2e6b8500-a6f6-11f1-b633-dff2eaae9c3e-Codeblock-6",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 9/2/2026, 11:30:32 PM\n- **source**: chat\n- **type**: copyCode\n"
+      }
+    },
+    "lines": {}
+  }
+}

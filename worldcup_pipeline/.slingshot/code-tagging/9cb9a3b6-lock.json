@@ -1,0 +1,96 @@
+{
+  "src\\transformation\\__init__.py": {
+    "filename": "__init__.py",
+    "path": "src\\transformation\\__init__.py",
+    "version": "1.2",
+    "contextFile": "9cb9a3b6-context.json",
+    "chunks": {
+      "bd72c3": {
+        "user": "Sudeep Thakur",
+        "model": "gpt-4.1",
+        "timestamp": 1788370741,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "bb101656"
+        },
+        "hash": "16fedda9",
+        "messageId": "system_29a42e60-a6f5-11f1-b633-dff2eaae9c3e",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Sudeep Thakur\n- **model**: gpt-4.1\n- **timestamp**: 9/2/2026, 11:09:01 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "bd72c3",
+        "hash": "c09d5efc",
+        "encoded": "%22%22%22Data%20transformation%20and%20cleaning%20package.%22%22%22",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "bd72c3",
+        "hash": "92e8ea6d",
+        "encoded": "from%20.clean_data%20import%20(",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "bd72c3",
+        "hash": "2b189c87",
+        "encoded": "clean_all_data,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "bd72c3",
+        "hash": "5204a0c3",
+        "encoded": "clean_worldcup_data,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "bd72c3",
+        "hash": "b3ede470",
+        "encoded": "clean_temperature_data,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "bd72c3",
+        "hash": "da5c19d5",
+        "encoded": ")",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "bd72c3",
+        "hash": "30e2a6e1",
+        "encoded": "__all__%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "bd72c3",
+        "hash": "1c289933",
+        "encoded": "%22clean_all_data%22,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "bd72c3",
+        "hash": "2de019b0",
+        "encoded": "%22clean_worldcup_data%22,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "bd72c3",
+        "hash": "b4c9ec5d",
+        "encoded": "%22clean_temperature_data%22,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "bd72c3",
+        "hash": "3cf09a6c",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

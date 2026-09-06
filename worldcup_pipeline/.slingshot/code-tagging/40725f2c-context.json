@@ -1,0 +1,15 @@
+{
+  "filename": "run_analytics.py",
+  "path": "run_analytics.py",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "ad4cf042": {
+      "value": "error in analytics\nRROR - Pipeline failed: 'Config' object has no attribute 'db_url'\n2026-09-04 00:12:39 - ERROR - Traceback (most recent call last):\n  File \"C:\\Users\\sudthaku3\\AI\\worldcup_pipeline\\src\\main_adaptive.py\", line 96, in run_full_pipeline\n    self._print_summary()\n    ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\sudthaku3\\AI\\worldcup_pipeline\\src\\main_adaptive.py\", line 252, in _print_summary\n    logger.info(f\"  Database: {config.db_url}\")\n                               ^^^^^^^^^^^^^\nAttri"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}
