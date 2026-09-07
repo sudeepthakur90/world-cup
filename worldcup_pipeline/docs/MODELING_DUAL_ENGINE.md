@@ -313,40 +313,6 @@ SELECT
 FROM fact_matches
 GROUP BY match_result;
 ```
-
----
-
-## 🎓 **For Interview:**
-
-### **Perfect Explanation:**
-
-> *"I implemented a Star Schema data model with dual-engine support.*
->
-> **Star Schema Design:**
-> - *Central fact table (fact_matches) with 836 match records*
-> - *4 dimension tables (date, team, location, temperature)*
-> - *Optimized for BI analytics with proper foreign keys*
->
-> **Dual Engine:**
-> - *Pandas for current data (1 second build time)*
-> - *Spark for future scale (ready when data grows 100x)*
->
-> **Same Business Logic:**
-> - *Extract unique dimensions from enriched data*
-> - *Build fact table with foreign key relationships*
-> - *Save to SQLite and Parquet*
->
-> **Output:**
-> - *SQLite database for SQL queries*
-> - *Parquet files for analytics tools*
-> - *Both engines produce identical schema*
->
-> *This demonstrates:*
-> - *Data warehouse design (Star Schema)*
-> - *Dimensional modeling best practices*
-> - *Scalable architecture (Pandas → Spark)*
-> - *BI-ready data structure"*
-
 ---
 
 ## 🚀 **Quick Start:**
