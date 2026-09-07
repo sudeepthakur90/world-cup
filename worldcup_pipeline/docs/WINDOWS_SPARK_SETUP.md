@@ -245,29 +245,6 @@ For your current data size (150 KB), Pandas is actually **faster** and requires 
 
 ---
 
-## 🎯 **For Interview**
-
-### **How to Explain:**
-
-> *"I designed the pipeline to support both Pandas and PySpark:*
->
-> - **Pandas**: For current data size (150 KB), no Hadoop dependencies needed, 3-second execution
-> - **Spark**: For large-scale data (10+ GB), requires Hadoop winutils on Windows
->
-> *On Windows, PySpark needs native Hadoop libraries (winutils.exe) to handle file I/O. I automated the setup with a Python script that:*
-> 1. *Downloads winutils from GitHub*
-> 2. *Sets up HADOOP_HOME*
-> 3. *Configures environment variables*
->
-> *This demonstrates understanding of:*
-> - *Platform-specific requirements*
-> - *Dependency management*
-> - *Developer experience optimization*
->
-> *For production, we'd use Linux/Docker where Hadoop is native, avoiding this Windows-specific setup."*
-
----
-
 ## 📊 **Comparison: Pandas vs Spark on Windows**
 
 | Aspect | Pandas | PySpark |
