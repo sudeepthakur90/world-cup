@@ -1,0 +1,28 @@
+# World Cup Data Pipeline - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Excel File Support
+openpyxl>=3.1.0
+
+# Parquet File Support
+pyarrow>=12.0.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Database Support
+sqlalchemy>=2.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# System Monitoring
+psutil>=5.9.0
+
+# PySpark (Optional - for large-scale processing)
+# Uncomment below if using --engine spark
+pyspark>=3.4.0

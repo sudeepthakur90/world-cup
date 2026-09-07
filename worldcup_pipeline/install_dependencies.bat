@@ -1,6 +1,6 @@
 @echo off
 REM Easy Dependency Installation for Windows
-REM This installs packages one by one to avoid conflicts
+REM Installs all packages from requirements.txt
 
 echo ========================================
 echo Installing World Cup Pipeline Dependencies
@@ -27,40 +27,19 @@ python -m pip install --upgrade pip
 
 echo.
 echo ========================================
-echo Installing Core Dependencies
+echo Installing from requirements.txt
 echo ========================================
-
 echo.
-echo [1/8] Installing numpy...
-pip install numpy
 
-echo.
-echo [2/8] Installing pandas...
-pip install pandas
-
-echo.
-echo [3/8] Installing openpyxl (for Excel files)...
-pip install openpyxl
-
-echo.
-echo [4/8] Installing pyarrow (for Parquet files)...
-pip install pyarrow
-
-echo.
-echo [5/8] Installing requests (for downloads)...
-pip install requests
-
-echo.
-echo [6/8] Installing sqlalchemy (for database)...
-pip install sqlalchemy
-
-echo.
-echo [7/8] Installing python-dotenv (for config)...
-pip install python-dotenv
-
-echo.
-echo [8/8] Installing psutil (for system info)...
-pip install psutil
+if exist "requirements.txt" (
+    pip install -r requirements.txt
+) else (
+    echo ERROR: requirements.txt not found!
+    echo.
+    echo Press any key to exit...
+    pause >nul
+    exit /b 1
+)
 
 echo.
 echo ========================================
