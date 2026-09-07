@@ -294,33 +294,6 @@ python test_spark.py
 
 ---
 
-## 🎓 **For Interview**
-
-### **How to Explain:**
-
-> *"I designed the pipeline with modular stage runners for maximum flexibility:*
->
-> **Full Pipeline**:
-> - *run_adaptive_pipeline.py - Auto-selects optimal engine*
->
-> **Individual Stages**:
-> - *run_ingestion.py - Downloads raw data*
-> - *run_transformation.py - Cleans with Pandas or Spark*
-> - *run_enrichment.py - Adds temperature data*
->
-> **Benefits**:
-> 1. *Selective re-execution (only re-run failed stages)*
-> 2. *Testing individual components*
-> 3. *Faster development iterations*
-> 4. *Easy debugging (isolate issues)*
-> 5. *Production flexibility (skip stages if data exists)*
->
-> *This demonstrates:*
-> - *Modular design principles*
-> - *Separation of concerns*
-> - *Developer experience optimization*
-> - *Production-ready architecture"*
-
 ---
 
 ## 📊 **Stage Runners Comparison**
