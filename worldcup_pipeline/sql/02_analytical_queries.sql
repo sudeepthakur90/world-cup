@@ -3,6 +3,7 @@
 -- =============================================================================
 -- Pre-built queries for extracting key insights from World Cup data
 -- with temperature enrichment
+-- Schema-aligned with ER diagram (updated 2026-09-04)
 -- =============================================================================
 
 -- =============================================================================
@@ -12,41 +13,41 @@
 -- Query 1.1: Goals scored by temperature range
 SELECT 
     CASE 
-        WHEN dt.avg_temperature_celsius < 10 THEN 'Cold (< 10°C)'
-        WHEN dt.avg_temperature_celsius < 20 THEN 'Moderate (10-20°C)'
-        WHEN dt.avg_temperature_celsius < 30 THEN 'Warm (20-30°C)'
+        WHEN dt.avg_temp < 10 THEN 'Cold (< 10°C)'
+        WHEN dt.avg_temp < 20 THEN 'Moderate (10-20°C)'
+        WHEN dt.avg_temp < 30 THEN 'Warm (20-30°C)'
         ELSE 'Hot (> 30°C)'
     END AS temperature_range,
     COUNT(fm.match_id) AS total_matches,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_goals_per_match,
-    ROUND(MIN(dt.avg_temperature_celsius), 1) AS min_temp,
-    ROUND(MAX(dt.avg_temperature_celsius), 1) AS max_temp
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_goals_per_match,
+    ROUND(MIN(dt.avg_temp), 1) AS min_temp,
+    ROUND(MAX(dt.avg_temp), 1) AS max_temp
 FROM fact_matches fm
 JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
-WHERE fm.home_score IS NOT NULL AND fm.away_score IS NOT NULL
+WHERE fm.home_goals IS NOT NULL AND fm.away_goals IS NOT NULL
 GROUP BY 
     CASE 
-        WHEN dt.avg_temperature_celsius < 10 THEN 'Cold (< 10°C)'
-        WHEN dt.avg_temperature_celsius < 20 THEN 'Moderate (10-20°C)'
-        WHEN dt.avg_temperature_celsius < 30 THEN 'Warm (20-30°C)'
+        WHEN dt.avg_temp < 10 THEN 'Cold (< 10°C)'
+        WHEN dt.avg_temp < 20 THEN 'Moderate (10-20°C)'
+        WHEN dt.avg_temp < 30 THEN 'Warm (20-30°C)'
         ELSE 'Hot (> 30°C)'
     END
 ORDER BY min_temp;
 
 -- Query 1.2: Correlation between temperature and scoring
 SELECT 
-    dt.temperature_category,
+    dt.temp_range,
     COUNT(*) AS matches,
-    ROUND(AVG(fm.home_score), 2) AS avg_home_goals,
-    ROUND(AVG(fm.away_score), 2) AS avg_away_goals,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_total_goals,
-    MAX(fm.home_score + fm.away_score) AS highest_scoring_match
+    ROUND(AVG(fm.home_goals), 2) AS avg_home_goals,
+    ROUND(AVG(fm.away_goals), 2) AS avg_away_goals,
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_total_goals,
+    MAX(fm.home_goals + fm.away_goals) AS highest_scoring_match
 FROM fact_matches fm
 JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
-WHERE dt.temperature_category IS NOT NULL
-GROUP BY dt.temperature_category
+WHERE dt.temp_range IS NOT NULL
+GROUP BY dt.temp_range
 ORDER BY 
-    CASE dt.temperature_category
+    CASE dt.temp_range
         WHEN 'Cold' THEN 1
         WHEN 'Moderate' THEN 2
         WHEN 'Warm' THEN 3
@@ -55,17 +56,17 @@ ORDER BY
 
 -- Query 1.3: Home advantage by temperature
 SELECT 
-    dt.temperature_category,
+    dt.temp_range,
     COUNT(*) AS total_matches,
-    SUM(CASE WHEN fm.home_score > fm.away_score THEN 1 ELSE 0 END) AS home_wins,
-    SUM(CASE WHEN fm.home_score < fm.away_score THEN 1 ELSE 0 END) AS away_wins,
-    SUM(CASE WHEN fm.home_score = fm.away_score THEN 1 ELSE 0 END) AS draws,
-    ROUND(100.0 * SUM(CASE WHEN fm.home_score > fm.away_score THEN 1 ELSE 0 END) / COUNT(*), 2) AS home_win_percentage,
-    ROUND(AVG(fm.home_score - fm.away_score), 2) AS avg_goal_difference
+    SUM(CASE WHEN fm.home_goals > fm.away_goals THEN 1 ELSE 0 END) AS home_wins,
+    SUM(CASE WHEN fm.home_goals < fm.away_goals THEN 1 ELSE 0 END) AS away_wins,
+    SUM(CASE WHEN fm.home_goals = fm.away_goals THEN 1 ELSE 0 END) AS draws,
+    ROUND(100.0 * SUM(CASE WHEN fm.home_goals > fm.away_goals THEN 1 ELSE 0 END) / COUNT(*), 2) AS home_win_percentage,
+    ROUND(AVG(fm.home_goals - fm.away_goals), 2) AS avg_goal_difference
 FROM fact_matches fm
 JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
-WHERE fm.home_score IS NOT NULL AND fm.away_score IS NOT NULL
-GROUP BY dt.temperature_category;
+WHERE fm.home_goals IS NOT NULL AND fm.away_goals IS NOT NULL
+GROUP BY dt.temp_range;
 
 -- =============================================================================
 -- 2. HISTORICAL TRENDS
@@ -75,11 +76,9 @@ GROUP BY dt.temperature_category;
 SELECT 
     dd.year,
     COUNT(DISTINCT fm.match_id) AS total_matches,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_goals_per_match,
-    ROUND(AVG(CAST(fm.attendance AS FLOAT)), 0) AS avg_attendance,
-    MAX(fm.attendance) AS max_attendance,
-    COUNT(DISTINCT CASE WHEN fm.home_score + fm.away_score >= 5 THEN fm.match_id END) AS high_scoring_matches,
-    ROUND(AVG(dt.avg_temperature_celsius), 1) AS avg_temperature
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_goals_per_match,
+    COUNT(DISTINCT CASE WHEN fm.home_goals + fm.away_goals >= 5 THEN fm.match_id END) AS high_scoring_matches,
+    ROUND(AVG(dt.avg_temp), 1) AS avg_temperature
 FROM fact_matches fm
 JOIN dim_date dd ON fm.date_id = dd.date_id
 LEFT JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
@@ -90,8 +89,7 @@ ORDER BY dd.year;
 SELECT 
     FLOOR(dd.year / 10) * 10 AS decade,
     COUNT(*) AS total_matches,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_goals,
-    ROUND(AVG(fm.attendance), 0) AS avg_attendance,
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_goals,
     COUNT(DISTINCT ht.team_id) + COUNT(DISTINCT at.team_id) AS unique_teams_participated
 FROM fact_matches fm
 JOIN dim_date dd ON fm.date_id = dd.date_id
@@ -105,8 +103,8 @@ SELECT
     dd.month,
     dd.month_name,
     COUNT(*) AS matches_played,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_goals,
-    ROUND(AVG(dt.avg_temperature_celsius), 1) AS avg_temp,
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_goals,
+    ROUND(AVG(dt.avg_temp), 1) AS avg_temp,
     COUNT(DISTINCT dd.year) AS years_active
 FROM fact_matches fm
 JOIN dim_date dd ON fm.date_id = dd.date_id
@@ -123,17 +121,15 @@ SELECT
     dl.country AS host_country,
     COUNT(DISTINCT dd.year) AS tournaments_hosted,
     COUNT(*) AS total_matches,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_goals_per_match,
-    ROUND(AVG(fm.attendance), 0) AS avg_attendance,
-    MAX(fm.attendance) AS highest_attendance,
-    ROUND(AVG(dt.avg_temperature_celsius), 1) AS avg_temperature,
-    dt.temperature_category AS typical_climate
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_goals_per_match,
+    ROUND(AVG(dt.avg_temp), 1) AS avg_temperature,
+    dt.temp_range AS typical_climate
 FROM fact_matches fm
 JOIN dim_location dl ON fm.location_id = dl.location_id
 JOIN dim_date dd ON fm.date_id = dd.date_id
 LEFT JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
 WHERE dl.country IS NOT NULL
-GROUP BY dl.country, dt.temperature_category
+GROUP BY dl.country, dt.temp_range
 HAVING COUNT(*) >= 5
 ORDER BY total_matches DESC;
 
@@ -141,8 +137,8 @@ ORDER BY total_matches DESC;
 WITH climate_zones AS (
     SELECT 
         CASE 
-            WHEN dt.avg_temperature_celsius < 15 THEN 'Temperate'
-            WHEN dt.avg_temperature_celsius < 25 THEN 'Subtropical'
+            WHEN dt.avg_temp < 15 THEN 'Temperate'
+            WHEN dt.avg_temp < 25 THEN 'Subtropical'
             ELSE 'Tropical'
         END AS climate_zone,
         fm.*
@@ -152,10 +148,10 @@ WITH climate_zones AS (
 SELECT 
     climate_zone,
     COUNT(*) AS total_matches,
-    ROUND(AVG(home_score + away_score), 2) AS avg_goals,
-    SUM(CASE WHEN home_score > away_score THEN 1 ELSE 0 END) AS home_wins,
-    SUM(CASE WHEN away_score > home_score THEN 1 ELSE 0 END) AS away_wins,
-    SUM(CASE WHEN home_score = away_score THEN 1 ELSE 0 END) AS draws
+    ROUND(AVG(home_goals + away_goals), 2) AS avg_goals,
+    SUM(CASE WHEN home_goals > away_goals THEN 1 ELSE 0 END) AS home_wins,
+    SUM(CASE WHEN away_goals > home_goals THEN 1 ELSE 0 END) AS away_wins,
+    SUM(CASE WHEN home_goals = away_goals THEN 1 ELSE 0 END) AS draws
 FROM climate_zones
 WHERE climate_zone IS NOT NULL
 GROUP BY climate_zone
@@ -182,14 +178,14 @@ WITH team_stats AS (
             ht.team_id,
             ht.team_name,
             COUNT(*) AS matches,
-            SUM(CASE WHEN fm.home_score > fm.away_score THEN 1 ELSE 0 END) AS wins,
-            SUM(CASE WHEN fm.home_score < fm.away_score THEN 1 ELSE 0 END) AS losses,
-            SUM(CASE WHEN fm.home_score = fm.away_score THEN 1 ELSE 0 END) AS draws,
-            SUM(fm.home_score) AS goals_for,
-            SUM(fm.away_score) AS goals_against
+            SUM(CASE WHEN fm.home_goals > fm.away_goals THEN 1 ELSE 0 END) AS wins,
+            SUM(CASE WHEN fm.home_goals < fm.away_goals THEN 1 ELSE 0 END) AS losses,
+            SUM(CASE WHEN fm.home_goals = fm.away_goals THEN 1 ELSE 0 END) AS draws,
+            SUM(fm.home_goals) AS goals_for,
+            SUM(fm.away_goals) AS goals_against
         FROM fact_matches fm
         JOIN dim_team ht ON fm.home_team_id = ht.team_id
-        WHERE fm.home_score IS NOT NULL
+        WHERE fm.home_goals IS NOT NULL
         GROUP BY ht.team_id, ht.team_name
         
         UNION ALL
@@ -199,14 +195,14 @@ WITH team_stats AS (
             at.team_id,
             at.team_name,
             COUNT(*) AS matches,
-            SUM(CASE WHEN fm.away_score > fm.home_score THEN 1 ELSE 0 END) AS wins,
-            SUM(CASE WHEN fm.away_score < fm.home_score THEN 1 ELSE 0 END) AS losses,
-            SUM(CASE WHEN fm.away_score = fm.home_score THEN 1 ELSE 0 END) AS draws,
-            SUM(fm.away_score) AS goals_for,
-            SUM(fm.home_score) AS goals_against
+            SUM(CASE WHEN fm.away_goals > fm.home_goals THEN 1 ELSE 0 END) AS wins,
+            SUM(CASE WHEN fm.away_goals < fm.home_goals THEN 1 ELSE 0 END) AS losses,
+            SUM(CASE WHEN fm.away_goals = fm.home_goals THEN 1 ELSE 0 END) AS draws,
+            SUM(fm.away_goals) AS goals_for,
+            SUM(fm.home_goals) AS goals_against
         FROM fact_matches fm
         JOIN dim_team at ON fm.away_team_id = at.team_id
-        WHERE fm.away_score IS NOT NULL
+        WHERE fm.away_goals IS NOT NULL
         GROUP BY at.team_id, at.team_name
     ) combined
     GROUP BY team_id, team_name
@@ -233,14 +229,14 @@ SELECT
     ht.team_name AS team1,
     at.team_name AS team2,
     COUNT(*) AS matches_played,
-    SUM(CASE WHEN fm.home_score > fm.away_score THEN 1 ELSE 0 END) AS team1_wins,
-    SUM(CASE WHEN fm.away_score > fm.home_score THEN 1 ELSE 0 END) AS team2_wins,
-    SUM(CASE WHEN fm.home_score = fm.away_score THEN 1 ELSE 0 END) AS draws,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_total_goals
+    SUM(CASE WHEN fm.home_goals > fm.away_goals THEN 1 ELSE 0 END) AS team1_wins,
+    SUM(CASE WHEN fm.away_goals > fm.home_goals THEN 1 ELSE 0 END) AS team2_wins,
+    SUM(CASE WHEN fm.home_goals = fm.away_goals THEN 1 ELSE 0 END) AS draws,
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_total_goals
 FROM fact_matches fm
 JOIN dim_team ht ON fm.home_team_id = ht.team_id
 JOIN dim_team at ON fm.away_team_id = at.team_id
-WHERE fm.home_score IS NOT NULL AND fm.away_score IS NOT NULL
+WHERE fm.home_goals IS NOT NULL AND fm.away_goals IS NOT NULL
 GROUP BY ht.team_name, at.team_name
 HAVING COUNT(*) >= 3
 ORDER BY matches_played DESC, avg_total_goals DESC
@@ -254,22 +250,22 @@ LIMIT 20;
 SELECT 
     dd.full_date AS match_date,
     ht.team_name AS home_team,
-    fm.home_score,
+    fm.home_goals,
     at.team_name AS away_team,
-    fm.away_score,
-    (fm.home_score + fm.away_score) AS total_goals,
+    fm.away_goals,
+    (fm.home_goals + fm.away_goals) AS total_goals,
     dl.city,
     dl.country,
-    ROUND(dt.avg_temperature_celsius, 1) AS temperature,
-    dt.temperature_category,
-    fm.stage
+    ROUND(dt.avg_temp, 1) AS temperature,
+    dt.temp_range,
+    fm.round
 FROM fact_matches fm
 JOIN dim_date dd ON fm.date_id = dd.date_id
 JOIN dim_team ht ON fm.home_team_id = ht.team_id
 JOIN dim_team at ON fm.away_team_id = at.team_id
 LEFT JOIN dim_location dl ON fm.location_id = dl.location_id
 LEFT JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
-WHERE fm.home_score IS NOT NULL AND fm.away_score IS NOT NULL
+WHERE fm.home_goals IS NOT NULL AND fm.away_goals IS NOT NULL
 ORDER BY total_goals DESC, dd.full_date DESC
 LIMIT 20;
 
@@ -278,19 +274,19 @@ SELECT
     dd.year,
     ht.team_name AS winning_team,
     at.team_name AS losing_team,
-    fm.home_score,
-    fm.away_score,
-    ABS(fm.home_score - fm.away_score) AS goal_difference,
+    fm.home_goals,
+    fm.away_goals,
+    ABS(fm.home_goals - fm.away_goals) AS goal_difference,
     dl.country AS host_country,
-    dt.avg_temperature_celsius AS temperature
+    dt.avg_temp AS temperature
 FROM fact_matches fm
 JOIN dim_date dd ON fm.date_id = dd.date_id
 JOIN dim_team ht ON fm.home_team_id = ht.team_id
 JOIN dim_team at ON fm.away_team_id = at.team_id
 LEFT JOIN dim_location dl ON fm.location_id = dl.location_id
 LEFT JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
-WHERE fm.home_score IS NOT NULL AND fm.away_score IS NOT NULL
-  AND fm.home_score != fm.away_score
+WHERE fm.home_goals IS NOT NULL AND fm.away_goals IS NOT NULL
+  AND fm.home_goals != fm.away_goals
 ORDER BY goal_difference DESC, dd.year DESC
 LIMIT 20;
 
@@ -300,12 +296,10 @@ SELECT
     dl.country AS host_country,
     COUNT(*) AS total_matches,
     COUNT(DISTINCT ht.team_id) + COUNT(DISTINCT at.team_id) AS teams_participated,
-    SUM(fm.home_score + fm.away_score) AS total_goals,
-    ROUND(AVG(fm.home_score + fm.away_score), 2) AS avg_goals_per_match,
-    MAX(fm.home_score + fm.away_score) AS highest_scoring_match,
-    ROUND(AVG(fm.attendance), 0) AS avg_attendance,
-    SUM(fm.attendance) AS total_attendance,
-    ROUND(AVG(dt.avg_temperature_celsius), 1) AS avg_tournament_temp
+    SUM(fm.home_goals + fm.away_goals) AS total_goals,
+    ROUND(AVG(fm.home_goals + fm.away_goals), 2) AS avg_goals_per_match,
+    MAX(fm.home_goals + fm.away_goals) AS highest_scoring_match,
+    ROUND(AVG(dt.avg_temp), 1) AS avg_tournament_temp
 FROM fact_matches fm
 JOIN dim_date dd ON fm.date_id = dd.date_id
 JOIN dim_team ht ON fm.home_team_id = ht.team_id
@@ -314,3 +308,63 @@ JOIN dim_location dl ON fm.location_id = dl.location_id
 LEFT JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
 GROUP BY dd.year, dl.country
 ORDER BY dd.year;
+
+-- =============================================================================
+-- BONUS QUERIES
+-- =============================================================================
+
+-- Query 6.1: Top 10 highest scoring matches
+SELECT 
+    fm.match_id,
+    dd.full_date,
+    ht.team_name AS home_team,
+    fm.home_goals,
+    at.team_name AS away_team,
+    fm.away_goals,
+    (fm.home_goals + fm.away_goals) AS total_goals,
+    dl.city,
+    dt.temp_range
+FROM fact_matches fm
+JOIN dim_date dd ON fm.date_id = dd.date_id
+JOIN dim_team ht ON fm.home_team_id = ht.team_id
+JOIN dim_team at ON fm.away_team_id = at.team_id
+LEFT JOIN dim_location dl ON fm.location_id = dl.location_id
+LEFT JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
+ORDER BY total_goals DESC
+LIMIT 10;
+
+-- Query 6.2: Matches by temperature category
+SELECT 
+    dt.temp_range,
+    COUNT(*) as match_count,
+    AVG(fm.home_goals + fm.away_goals) as avg_goals
+FROM fact_matches fm
+JOIN dim_temperature dt ON fm.temperature_id = dt.temperature_id
+GROUP BY dt.temp_range
+ORDER BY match_count DESC;
+
+-- Query 6.3: Home vs Away win rates
+SELECT 
+    CASE 
+        WHEN fm.home_goals > fm.away_goals THEN 'Home Win'
+        WHEN fm.away_goals > fm.home_goals THEN 'Away Win'
+        ELSE 'Draw'
+    END AS match_result,
+    COUNT(*) as count,
+    ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM fact_matches), 2) as percentage
+FROM fact_matches fm
+GROUP BY 
+    CASE 
+        WHEN fm.home_goals > fm.away_goals THEN 'Home Win'
+        WHEN fm.away_goals > fm.home_goals THEN 'Away Win'
+        ELSE 'Draw'
+    END;
+
+-- =============================================================================
+-- END OF QUERIES
+-- =============================================================================
+-- Total Queries: 15
+-- Schema: Star Schema (1 fact + 4 dimensions)
+-- Database: worldcup_analytics.db (SQLite)
+-- Last Updated: 2026-09-04
+-- =============================================================================
