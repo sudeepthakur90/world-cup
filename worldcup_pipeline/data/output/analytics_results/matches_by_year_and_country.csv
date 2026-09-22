@@ -1,0 +1,21 @@
+year,country,match_count,avg_goals,avg_temp
+1930,Uruguay,18,3.89,
+1934,Italy,17,4.12,
+1938,France,18,4.67,
+1950,Brazil,22,4.0,22.99
+1954,Switzerland,26,5.38,11.26
+1958,Sweden,35,3.6,11.52
+1962,Chile,32,2.78,5.38
+1966,England,32,2.78,
+1970,Mexico,32,2.97,23.78
+1974,Germany,38,2.55,14.44
+1978,Argentina,38,2.68,7.6
+1982,Spain,52,2.81,20.61
+1986,Mexico,52,2.54,23.49
+1990,Italy,52,2.21,19.11
+1994,USA,52,2.71,
+1998,France,64,2.67,18.4
+2002,Korea/Japan,64,2.52,
+2006,Germany,64,2.3,17.47
+2010,South Africa,64,2.27,10.98
+2014,Brazil,64,2.67,23.99

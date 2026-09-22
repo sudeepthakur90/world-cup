@@ -1,0 +1,534 @@
+{
+  "timestamp": "2026-09-21T23:05:07.922382",
+  "data_completeness": {
+    "fact_matches": {
+      "total_records": 836,
+      "total_columns": 11,
+      "overall_completeness_percent": 97.81,
+      "missing_cells": 201,
+      "column_completeness": {
+        "match_id": 100.0,
+        "date_id": 100.0,
+        "location_id": 100.0,
+        "home_team_id": 100.0,
+        "away_team_id": 100.0,
+        "temperature_id": 75.96,
+        "home_goals": 100.0,
+        "away_goals": 100.0,
+        "total_goals": 100.0,
+        "round": 100.0,
+        "year": 100.0
+      },
+      "critical_missing": [
+        "temperature_id"
+      ]
+    },
+    "dim_date": {
+      "total_records": 330,
+      "total_columns": 10,
+      "overall_completeness_percent": 100.0,
+      "missing_cells": 0,
+      "column_completeness": {
+        "date_id": 100.0,
+        "full_date": 100.0,
+        "year": 100.0,
+        "month": 100.0,
+        "day": 100.0,
+        "quarter": 100.0,
+        "day_of_week": 100.0,
+        "day_name": 100.0,
+        "month_name": 100.0,
+        "is_weekend": 100.0
+      },
+      "critical_missing": []
+    },
+    "dim_team": {
+      "total_records": 82,
+      "total_columns": 4,
+      "overall_completeness_percent": 100.0,
+      "missing_cells": 0,
+      "column_completeness": {
+        "team_id": 100.0,
+        "team_name": 100.0,
+        "team_code": 100.0,
+        "confederation": 100.0
+      },
+      "critical_missing": []
+    },
+    "dim_location": {
+      "total_records": 151,
+      "total_columns": 6,
+      "overall_completeness_percent": 66.67,
+      "missing_cells": 302,
+      "column_completeness": {
+        "location_id": 100.0,
+        "city": 100.0,
+        "country": 100.0,
+        "stadium": 100.0,
+        "latitude": 0.0,
+        "longitude": 0.0
+      },
+      "critical_missing": [
+        "latitude",
+        "longitude"
+      ]
+    },
+    "dim_temperature": {
+      "total_records": 26,
+      "total_columns": 6,
+      "overall_completeness_percent": 100.0,
+      "missing_cells": 0,
+      "column_completeness": {
+        "temperature_id": 100.0,
+        "country": 100.0,
+        "year": 100.0,
+        "month": 100.0,
+        "avg_temperature_celsius": 100.0,
+        "temperature_category": 100.0
+      },
+      "critical_missing": []
+    }
+  },
+  "data_quality": {
+    "fact_matches": {
+      "duplicate_records": 0,
+      "duplicate_percentage": 0.0,
+      "data_type_issues": [],
+      "outliers": {
+        "home_goals": {
+          "count": 15,
+          "percentage": 1.79
+        },
+        "away_goals": {
+          "count": 2,
+          "percentage": 0.24
+        },
+        "total_goals": {
+          "count": 10,
+          "percentage": 1.2
+        }
+      }
+    },
+    "dim_date": {
+      "duplicate_records": 0,
+      "duplicate_percentage": 0.0,
+      "data_type_issues": [],
+      "outliers": {
+        "month": {
+          "count": 87,
+          "percentage": 26.36
+        },
+        "quarter": {
+          "count": 80,
+          "percentage": 24.24
+        }
+      }
+    },
+    "dim_team": {
+      "duplicate_records": 0,
+      "duplicate_percentage": 0.0,
+      "data_type_issues": [],
+      "outliers": {}
+    },
+    "dim_location": {
+      "duplicate_records": 0,
+      "duplicate_percentage": 0.0,
+      "data_type_issues": [],
+      "outliers": {}
+    },
+    "dim_temperature": {
+      "duplicate_records": 0,
+      "duplicate_percentage": 0.0,
+      "data_type_issues": [],
+      "outliers": {}
+    }
+  },
+  "statistical_profile": {
+    "fact_matches": {
+      "match_id": {
+        "count": 836,
+        "mean": 418.5,
+        "std": 241.47670695120885,
+        "min": 1.0,
+        "max": 836.0,
+        "median": 418.5,
+        "skewness": 0.0,
+        "kurtosis": -1.2
+      },
+      "date_id": {
+        "count": 836,
+        "mean": 162.79545454545453,
+        "std": 95.07431711940552,
+        "min": 1.0,
+        "max": 330.0,
+        "median": 159.0,
+        "skewness": 0.0790346006276635,
+        "kurtosis": -1.268099116373264
+      },
+      "location_id": {
+        "count": 836,
+        "mean": 72.04545454545455,
+        "std": 43.94940303597184,
+        "min": 1.0,
+        "max": 151.0,
+        "median": 67.0,
+        "skewness": 0.13573585634696628,
+        "kurtosis": -1.1002946048340578
+      },
+      "home_team_id": {
+        "count": 836,
+        "mean": 38.02153110047847,
+        "std": 24.25191176957543,
+        "min": 1.0,
+        "max": 82.0,
+        "median": 36.0,
+        "skewness": 0.16496917987674423,
+        "kurtosis": -1.1661353267279748
+      },
+      "away_team_id": {
+        "count": 836,
+        "mean": 40.42822966507177,
+        "std": 24.125438006756468,
+        "min": 1.0,
+        "max": 82.0,
+        "median": 40.0,
+        "skewness": 0.05305739519784584,
+        "kurtosis": -1.22131718410705
+      },
+      "temperature_id": {
+        "count": 635,
+        "mean": 15.286614173228346,
+        "std": 6.936148193868604,
+        "min": 1.0,
+        "max": 26.0,
+        "median": 16.0,
+        "skewness": -0.32487473231407127,
+        "kurtosis": -0.9749048349317779
+      },
+      "home_goals": {
+        "count": 836,
+        "mean": 1.8241626794258374,
+        "std": 1.6191784395219364,
+        "min": 0.0,
+        "max": 10.0,
+        "median": 2.0,
+        "skewness": 1.3382780928292868,
+        "kurtosis": 2.5699134607367515
+      },
+      "away_goals": {
+        "count": 836,
+        "mean": 1.0215311004784688,
+        "std": 1.0720244658211058,
+        "min": 0.0,
+        "max": 7.0,
+        "median": 1.0,
+        "skewness": 1.4012018328235032,
+        "kurtosis": 3.065844957084299
+      },
+      "total_goals": {
+        "count": 836,
+        "mean": 2.8456937799043063,
+        "std": 1.954909219635315,
+        "min": 0.0,
+        "max": 12.0,
+        "median": 3.0,
+        "skewness": 0.962385823568179,
+        "kurtosis": 1.501200508502154
+      },
+      "year": {
+        "count": 836,
+        "mean": 1984.5358851674641,
+        "std": 22.299859655447744,
+        "min": 1930.0,
+        "max": 2014.0,
+        "median": 1990.0,
+        "skewness": -0.6577424528320406,
+        "kurtosis": -0.39132179325446925
+      }
+    },
+    "dim_date": {
+      "date_id": {
+        "count": 330,
+        "mean": 165.5,
+        "std": 95.40702280230738,
+        "min": 1.0,
+        "max": 330.0,
+        "median": 165.5,
+        "skewness": 0.0,
+        "kurtosis": -1.2000000000000002
+      },
+      "year": {
+        "count": 330,
+        "mean": 1984.6303030303031,
+        "std": 22.985980726048837,
+        "min": 1930.0,
+        "max": 2014.0,
+        "median": 1990.0,
+        "skewness": -0.8011360887280393,
+        "kurtosis": -0.17954435292736148
+      },
+      "month": {
+        "count": 330,
+        "mean": 6.221212121212122,
+        "std": 0.4640626567573636,
+        "min": 5.0,
+        "max": 7.0,
+        "median": 6.0,
+        "skewness": 0.6856771957963315,
+        "kurtosis": 0.014637889205071808
+      },
+      "day": {
+        "count": 330,
+        "mean": 15.896969696969697,
+        "std": 8.349234529771067,
+        "min": 1.0,
+        "max": 31.0,
+        "median": 16.0,
+        "skewness": -0.018919190963944135,
+        "kurtosis": -1.0061324858729317
+      },
+      "quarter": {
+        "count": 330,
+        "mean": 2.242424242424242,
+        "std": 0.4292003613353522,
+        "min": 2.0,
+        "max": 3.0,
+        "median": 2.0,
+        "skewness": 1.2075774617576942,
+        "kurtosis": -0.5450971973595857
+      },
+      "day_of_week": {
+        "count": 330,
+        "mean": 3.4212121212121214,
+        "std": 2.0469055265212135,
+        "min": 0.0,
+        "max": 6.0,
+        "median": 4.0,
+        "skewness": -0.2059301474937316,
+        "kurtosis": -1.3290661967842525
+      },
+      "is_weekend": {
+        "count": 330,
+        "mean": 0.40606060606060607,
+        "std": 0.4918418914282977,
+        "min": 0.0,
+        "max": 1.0,
+        "median": 0.0,
+        "skewness": 0.3843194195902669,
+        "kurtosis": -1.8636303645439976
+      }
+    },
+    "dim_team": {
+      "team_id": {
+        "count": 82,
+        "mean": 41.5,
+        "std": 23.815261213488014,
+        "min": 1.0,
+        "max": 82.0,
+        "median": 41.5,
+        "skewness": 0.0,
+        "kurtosis": -1.1999999999999997
+      }
+    },
+    "dim_location": {
+      "location_id": {
+        "count": 151,
+        "mean": 76.0,
+        "std": 43.734044709661454,
+        "min": 1.0,
+        "max": 151.0,
+        "median": 76.0,
+        "skewness": 0.0,
+        "kurtosis": -1.2000000000000002
+      }
+    },
+    "dim_temperature": {
+      "temperature_id": {
+        "count": 26,
+        "mean": 13.5,
+        "std": 7.648529270389178,
+        "min": 1.0,
+        "max": 26.0,
+        "median": 13.5,
+        "skewness": 0.0,
+        "kurtosis": -1.2000000000000002
+      },
+      "year": {
+        "count": 26,
+        "mean": 1981.8461538461538,
+        "std": 20.84551233756044,
+        "min": 1950.0,
+        "max": 2014.0,
+        "median": 1982.0,
+        "skewness": 0.03653945051570051,
+        "kurtosis": -1.1980848862740285
+      },
+      "month": {
+        "count": 26,
+        "mean": 6.230769230769231,
+        "std": 0.6516251872168423,
+        "min": 5.0,
+        "max": 7.0,
+        "median": 6.0,
+        "skewness": -0.2613309896748918,
+        "kurtosis": -0.5542656365579037
+      },
+      "avg_temperature_celsius": {
+        "count": 26,
+        "mean": 17.414534361538465,
+        "std": 6.072266336293358,
+        "min": 4.8556466,
+        "max": 24.026459,
+        "median": 19.1378585,
+        "skewness": -0.6133453899518887,
+        "kurtosis": -0.9699979332805349
+      }
+    }
+  },
+  "feature_analysis": {
+    "feature_types": {
+      "numeric": [
+        "match_id",
+        "date_id",
+        "location_id",
+        "home_team_id",
+        "away_team_id",
+        "temperature_id",
+        "home_goals",
+        "away_goals",
+        "total_goals",
+        "year"
+      ],
+      "categorical": [
+        "round"
+      ],
+      "temporal": [
+        "date_id"
+      ]
+    },
+    "categorical_cardinality": {
+      "round": {
+        "unique_values": 23,
+        "cardinality_ratio": 0.0275
+      }
+    },
+    "total_features": 11,
+    "numeric_features": 10,
+    "categorical_features": 1
+  },
+  "correlation_analysis": {
+    "strong_correlations": [
+      {
+        "feature1": "match_id",
+        "feature2": "date_id",
+        "correlation": 0.999
+      },
+      {
+        "feature1": "match_id",
+        "feature2": "temperature_id",
+        "correlation": 0.981
+      },
+      {
+        "feature1": "match_id",
+        "feature2": "year",
+        "correlation": 0.972
+      },
+      {
+        "feature1": "date_id",
+        "feature2": "temperature_id",
+        "correlation": 0.974
+      },
+      {
+        "feature1": "date_id",
+        "feature2": "year",
+        "correlation": 0.964
+      },
+      {
+        "feature1": "temperature_id",
+        "feature2": "year",
+        "correlation": 0.996
+      },
+      {
+        "feature1": "home_goals",
+        "feature2": "total_goals",
+        "correlation": 0.836
+      }
+    ],
+    "correlation_matrix_shape": [
+      10,
+      10
+    ]
+  },
+  "bias_detection": {
+    "temporal_distribution": {
+      "year_counts": {
+        "1998": 27,
+        "2002": 25,
+        "2006": 25,
+        "2010": 25,
+        "2014": 25,
+        "1990": 24,
+        "1986": 23,
+        "1994": 23,
+        "1982": 22,
+        "1930": 13,
+        "1966": 12,
+        "1974": 12,
+        "1978": 12,
+        "1970": 11,
+        "1954": 10,
+        "1962": 10,
+        "1950": 9,
+        "1958": 9,
+        "1938": 7,
+        "1934": 6
+      },
+      "coverage_years": 84
+    },
+    "geographic_distribution": {
+      "top_10_countries": {
+        "Korea/Japan": 20,
+        "France": 16,
+        "Germany": 14,
+        "Spain": 14,
+        "Italy": 13,
+        "Brazil": 12,
+        "Sweden": 12,
+        "Mexico": 9,
+        "USA": 9,
+        "South Africa": 9
+      },
+      "unique_countries": 15
+    },
+    "team_representation": {
+      "total_teams": 82,
+      "region_distribution": {}
+    }
+  },
+  "data_lineage": {
+    "source_systems": [
+      {
+        "name": "World Cup Results",
+        "url": "https://public.tableau.com/app/sample-data/world_cup_results.xlsx",
+        "type": "Excel"
+      },
+      {
+        "name": "Temperature Data",
+        "url": "https://ourworldindata.org/grapher/average-monthly-surface-temperature.zip?v=1&csvType=full&useColumnShortNames=false",
+        "type": "CSV (zipped)"
+      }
+    ],
+    "transformation_stages": [
+      "Data Ingestion",
+      "Data Cleaning & Standardization",
+      "Temperature Enrichment",
+      "Dimensional Modeling (Star Schema)",
+      "Aggregation & Analytics"
+    ],
+    "data_freshness": {
+      "coverage_period": "1930-2014",
+      "last_updated": "2026-09-21T23:05:07.999084"
+    }
+  },
+  "readiness_score": 95.03
+}

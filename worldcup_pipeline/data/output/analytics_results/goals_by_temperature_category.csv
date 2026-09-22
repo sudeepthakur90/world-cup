@@ -1,0 +1,4 @@
+temperature_category,match_count,avg_goals_per_match,min_temp,max_temp,avg_temp
+Cold,70,2.73,4.86,7.6,6.58
+Moderate,331,2.77,10.83,19.49,15.02
+Warm,234,2.8,20.06,24.03,22.9

@@ -1,0 +1,21 @@
+match_date,home_team,away_team,home_goals,away_goals,total_goals,city,country,temperature,temperature_category
+1954-06-26 00:00:00.000000,Austria,Switzerland,7,5,12,Lausanne,Switzerland,11.242212,Moderate
+1982-06-15 00:00:00.000000,Hungary,El Salvador,10,1,11,Elche,Spain,20.056566,Warm
+1954-06-20 00:00:00.000000,Hungary,Germany FR,8,3,11,Basel,Switzerland,11.242212,Moderate
+1938-06-05 00:00:00.000000,Brazil,Poland,6,5,11,Strasbourg,France,,
+1958-06-08 00:00:00.000000,France,Paraguay,7,3,10,Norrkï¿½Ping,Sweden,11.520573,Moderate
+1974-06-18 00:00:00.000000,Yugoslavia,Zaire,9,0,9,Gelsenkirchen,Germany,14.230545,Moderate
+1958-06-28 00:00:00.000000,France,Germany FR,6,3,9,Gothenburg,Sweden,11.520573,Moderate
+1954-06-23 00:00:00.000000,Germany FR,Turkey,7,2,9,Zurich,Switzerland,11.242212,Moderate
+1954-06-17 00:00:00.000000,Hungary,South Korea,9,0,9,Zurich,Switzerland,11.242212,Moderate
+1930-07-19 00:00:00.000000,Argentina,Mexico,6,3,9,Montevideo,Uruguay,,
+2014-07-08 00:00:00.000000,Brazil,Germany,1,7,8,Belo Horizonte,Brazil,23.789963,Warm
+2002-06-01 00:00:00.000000,Germany,Saudi Arabia,8,0,8,Sapporo,Korea/Japan,,
+1966-07-23 00:00:00.000000,Portugal,North Korea,5,3,8,Liverpool,England,,
+1962-06-03 00:00:00.000000,Soviet Union,Colombia,4,4,8,Arica,Chile,4.8556466,Cold
+1954-06-17 00:00:00.000000,England,Belgium,4,4,8,Basel,Switzerland,11.242212,Moderate
+1950-07-09 00:00:00.000000,Brazil,Sweden,7,1,8,Rio De Janeiro,Brazil,22.974623,Warm
+1950-07-02 00:00:00.000000,Uruguay,Bolivia,8,0,8,Belo Horizonte,Brazil,22.974623,Warm
+1938-06-12 00:00:00.000000,Sweden,Cuba,8,0,8,Antibes,France,,
+1934-05-27 00:00:00.000000,Italy,United States,7,1,8,Rome,Italy,,
+2014-06-20 00:00:00.000000,Switzerland,France,2,5,7,Salvador,Brazil,24.026459,Warm

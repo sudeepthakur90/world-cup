@@ -1,0 +1,20 @@
+host_country,tournaments_hosted,total_matches,avg_goals_per_match,avg_temperature,typical_climate
+Germany,2,96,2.44,15.97,Moderate
+Brazil,2,86,3.01,23.73,Warm
+Mexico,2,84,2.7,23.6,Warm
+France,1,64,2.67,18.4,Moderate
+Korea/Japan,1,64,2.52,,
+South Africa,1,64,2.27,10.98,Moderate
+Spain,1,52,2.81,20.61,Warm
+USA,1,52,2.71,,
+Italy,1,46,2.2,18.79,Moderate
+Argentina,1,38,2.68,7.6,Cold
+Sweden,1,35,3.6,11.52,Moderate
+Chile,1,32,2.78,5.38,Cold
+England,1,32,2.78,,
+Switzerland,1,26,5.38,11.26,Moderate
+France,1,18,4.67,,
+Uruguay,1,18,3.89,,
+Italy,1,17,4.12,,
+Germany,1,6,1.67,22.22,Warm
+Italy,1,6,2.33,21.57,Warm
