@@ -342,7 +342,7 @@ class AIReadinessValidator:
             df = tables['dim_team']
             bias_checks['team_representation'] = {
                 'total_teams': len(df),
-                'confederation_distribution': df['confederation'].value_counts().to_dict() if 'confederation' in df.columns else {}
+                'region_distribution': df['region'].value_counts().to_dict() if 'region' in df.columns else {}
             }
         
         return bias_checks
@@ -358,12 +358,12 @@ class AIReadinessValidator:
             'source_systems': [
                 {
                     'name': 'World Cup Results',
-                    'url': config.worldcup_url,
+                    'url': config.worldcup_data_url,  # ✅ Fixed
                     'type': 'Excel'
                 },
                 {
                     'name': 'Temperature Data',
-                    'url': config.temperature_url,
+                    'url': config.temperature_data_url,  # ✅ Fixed
                     'type': 'CSV (zipped)'
                 }
             ],
